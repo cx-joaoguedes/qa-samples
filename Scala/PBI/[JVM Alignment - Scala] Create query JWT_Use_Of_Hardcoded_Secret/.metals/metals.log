@@ -1,0 +1,90 @@
+2023.04.27 16:00:46 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret' for client Visual Studio Code 1.77.3.
+Apr 27, 2023 4:00:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 27, 2023 4:00:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 27, 2023 4:00:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 27, 2023 4:00:47 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\.metals\metals (H2 2.1)
+Apr 27, 2023 4:00:47 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Apr 27, 2023 4:00:47 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.015s)
+Apr 27, 2023 4:00:47 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Apr 27, 2023 4:00:47 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Apr 27, 2023 4:00:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Apr 27, 2023 4:00:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Apr 27, 2023 4:00:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Apr 27, 2023 4:00:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Apr 27, 2023 4:00:47 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.051s)
+2023.04.27 16:00:47 INFO  time: initialize in 0.61s
+2023.04.27 16:00:49 WARN  Build server is not auto-connectable.
+2023.04.27 16:00:49 WARN  no build tool detected in workspace 'C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.27 16:00:49 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecret.scala
+2023.04.27 16:00:55 INFO  no build target found for C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecret.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.27 16:00:55 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecret.scala
+Apr 27, 2023 4:00:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2023.04.27 16:00:57 INFO  time: code lens generation in 1.44s
+2023.04.27 16:00:57 INFO  time: code lens generation in 7.05s
+2023.04.27 16:00:57 INFO  time: code lens generation in 1.42s
+2023.04.27 16:01:33 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecretInParams.scala
+2023.04.27 16:01:34 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\RootController.scala
+2023.04.27 16:01:34 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecret.scala
+2023.04.27 16:03:27 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\sample1.scala
+2023.04.27 16:03:30 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\sample1.scala
+2023.04.27 16:03:36 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\sample2.scala
+2023.04.27 16:03:37 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\sample2.scala
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.04.27 16:03:41 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\sampole3.scala
+2023.04.27 16:03:41 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\sampole3.scala
+2023.04.27 16:08:35 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecretInParams.scala
+2023.04.27 16:08:36 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\RootController.scala
+2023.04.27 16:08:37 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecretInParams.scala
+2023.04.27 16:08:38 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\RootController.scala
+2023.04.27 16:11:16 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecretInParams.scala
+2023.04.27 16:11:51 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample1.scala
+2023.04.27 16:11:53 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample1.scala
+2023.04.27 16:11:59 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecret.scala
+2023.04.27 16:12:09 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample1.scala
+2023.04.27 16:12:21 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample2.scala
+2023.04.27 16:12:21 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample2.scala
+2023.04.27 16:12:26 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample3.scala
+Apr 27, 2023 4:12:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 267
+Apr 27, 2023 4:12:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 269
+2023.04.27 16:12:28 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample3.scala
+2023.04.27 16:12:32 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample2.scala
+2023.04.27 16:12:34 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample3.scala
+2023.04.27 16:16:52 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecret.scala
+2023.04.27 16:16:58 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample3.scala
+2023.04.27 16:17:54 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample2.scala
+2023.04.27 16:17:58 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecret.scala
+2023.04.27 16:18:02 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample1.scala
+2023.04.27 16:18:04 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecret.scala
+2023.04.27 16:18:05 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample1.scala
+2023.04.27 16:18:54 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample2.scala
+2023.04.27 16:19:46 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\sample1.scala
+2023.04.27 16:22:11 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\HardcodedSecretInParams.scala
+2023.04.27 16:22:51 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample1.scala
+2023.04.27 16:22:51 WARN  Using indexes to guess the definition of generateToken
+2023.04.27 16:22:54 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample1.scala
+2023.04.27 16:23:02 WARN  no build target for: C:\Users\joaogu\OneDrive - Checkmarx\Desktop\qa_samples\Scala\PBI\[JVM Alignment - Scala] Create query JWT_Use_Of_Hardcoded_Secret\Jwts\sample1.scala
+2023.04.27 16:25:39 INFO  Shutting down server
+2023.04.27 16:25:39 INFO  shutting down Metals
+2023.04.27 16:25:39 INFO  Exiting server

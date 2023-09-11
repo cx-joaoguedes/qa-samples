@@ -1,0 +1,1017 @@
+24/05/2023 10:29:07,264 [MainThread_CxAudit] WARN  Available memory: 18979 Used memory: 24 Elapsed Time: 00:00:00.0372223 [Unspecified] - Reload Configuration failed due to file (C:\Program Files\Checkmarx\Checkmarx Audit\DefaultConfig.xml) not exists  
+24/05/2023 10:29:08,949 [MainThread_CxAudit] INFO  Available memory: 18708 Used memory: 292 Elapsed Time: 00:00:01.7242580 [Unspecified] - 
+Product version: 9.5.4.0-467112
+Available memory: 18979Mb
+Used memory: 24Mb
+OS: Microsoft Windows NT 10.0.22621.0
+Current Directory: C:\Program Files\Checkmarx\Checkmarx Audit
+
+Processor Count: 20
+CLR Version: 4.0.30319.42000
+Executable PID: 26312
+Executable Location: C:\Program Files\Checkmarx\Checkmarx Audit\CxAudit.exe
+Process ID: 26312
+C:\ 672 GB Free
+
+64Bit platform
+PROCESSOR IDENTIFIER: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+Disk Speed: 2631 Ticks per one request
+New Disk Speed: 293 Ticks per one request
+Core Speed: 2.1GHz
+Product: Checkmarx SAST Engine
+-	Main Version: 9.5.4.1000
+-	Hotfix Version: 0
+-	Path: C:\Program Files\Checkmarx\Checkmarx Engine Service\
+Product: Checkmarx SAST Audit
+-	Main Version: 9.5.4.1000
+-	Hotfix Version: 0
+-	Path: C:\Program Files\Checkmarx\Checkmarx Audit\
+Current Product dll's version list:
+___________________________________
+Assembly name:                 File version:
+ASP.dll                        9.5.4.0-467112
+CSharp.dll                     9.5.4.0-467112
+DataCollections.dll            9.5.4.0-467112
+EngineFacade.dll               9.5.4.0-467112
+Plugin.dll                     9.5.4.0-467112
+Query.dll                      9.5.4.0-467112
+CxSyntaxEdit.dll               9.5.4.0-467112
+QWhale.Common.dll              2.3.0.0
+QWhale.Editor.dll              2.3.0.0
+QWhale.Syntax.dll              2.3.0.0
+QWhale.Syntax.Parsers.dll      2.3.0.0
+====================================================
+
+  
+24/05/2023 10:29:08,967 [MainThread_CxAudit] INFO  Available memory: 18708 Used memory: 292 Elapsed Time: 00:00:01.7422847 [Unspecified] - 
+HostName: BmPc
+DomainName: 
+FQDN: BmPc
+v6  fe80::36e8:98a:8577:9464%16
+v6  2603:8080:2800:e20:5c:9c7c:b349:8580
+v6  2603:8080:2800:e20::fa2
+v6  2603:8080:2800:e20:d7ba:25d8:95d5:e077
+v4  192.168.1.231
+  
+24/05/2023 10:29:08,967 [MainThread_CxAudit] INFO  Available memory: 18708 Used memory: 292 Elapsed Time: 00:00:01.7423207 [Unspecified] - Scan started  
+24/05/2023 10:29:20,408 [MainThread_CxAudit] INFO  Available memory: 18662 Used memory: 318 Elapsed Time: 00:00:13.1834036 [Unspecified] - ConnectionManagerAccessControl.InitAuditWebservice(): url=http://localhost/Cxwebinterface/CxWSResolver.asmx  
+24/05/2023 10:29:20,545 [MainThread_CxAudit] WARN  Available memory: 18662 Used memory: 318 Elapsed Time: 00:00:13.3197443 [Unspecified] - Reload Configuration failed due to file (C:\Users\borma\AppData\Local\Checkmarx\Checkmarx SAST\DefaultConfig.xml) not exists  
+24/05/2023 10:29:20,565 [MainThread_CxAudit] INFO  Available memory: 18662 Used memory: 318 Elapsed Time: 00:00:13.3403968 [Unspecified] - Current Engine Configuration from Application: 
+_____________________________
+ABS_BINARY_EXPRESSION_STACK_DEPTH=400
+ABS_INT_ADDITIONAL_ENTRY_POINT_ITERATIONS=0
+ABS_INT_CALL_STACK_DEPTH=3
+ABS_INT_DATA_FLOW_ENABLED=true
+ABS_INT_DATA_FLOW_TIMEOUT_SECONDS=1800
+ABS_INT_ENABLED=true
+ABS_INT_FRAMEWORK_COMPONENT_NESTING_DEPTH=3
+ABS_INT_LAMBDAS_IMPLICIT_INVOCATION=false
+ABS_INT_MAP_TIMEOUT_SECONDS=900
+ABS_INT_MAX_IMPLEMENTING_METHODS=20
+ABS_INT_NESTED_LOOP_DEPTH=2
+ABS_INT_RESOLVE_MEMBER_ACCESSES=false
+ABS_INT_RESOLVE_MEMBER_ACCESSES_LANGUAGES=["JavaScript","Kotlin"]
+ABS_INT_STRING_LIMIT=500
+ABS_INT_UNIQUE_METHODS=[{ "MethodName":  "put", "NumberOfParameters": 2,  "ProjectType": 2,  "MethodActionType": 1}, { "MethodName":  "get", "NumberOfParameters": 1,  "ProjectType": 2,  "MethodActionType": 2}]
+ACTIVE_MESSAGE_QUEUE_URL=tcp://BmPc:49151
+ADDITIONAL_ALLOW_LIST_MEMBER_ACCESS=
+ADDITIONAL_ALLOW_LIST_METHODS=
+ADDITIONAL_ALLOW_LIST_OBJECTS=
+ADDITIONAL_ALLOW_LIST_QUALIFIED_NAME=
+ALLOW_CREATE_AUTOMATIONS=false
+ALLOW_CREATE_BULK_MINI_PROJECT=false
+ALLOW_CREATE_MINI_PROJECT=false
+ATTRIBUTE_EXPRESSIONS_TIMEOUT_FACTOR=40
+ATTRIBUTE_EXPRESSIONS_TIMEOUT_SECONDS=-1
+AUDIT_VIEW_AS_GRAPH_MAX_SINK_NODES=50
+AUDIT_VIEW_AS_GRAPH_MAX_SOURCE_NODES=50
+BEAUTIFIER_MIN_NUMBER_OF_WORDS_IN_MINIMIZED_LINE=500
+BEAUTIFIER_NUMBER_OF_ROWS_TO_CHECK=3
+BEAUTIFIER_TIMEOUT_IN_SEC=180
+BIG_PROJECT_LIMIT=100000
+BULK_SIZE=64
+CALCULATE_CONFIDENCE_LEVEL=true
+CASE_SENSITIVE_FILENAMES=false
+CLIENTS_CONFIDENCE_LEVEL_COLLECT=
+COBOL_FORMAT=FIXED
+CONFIDENCE_LEVEL_COLLECT_DATA_FILE_PATH=C:\\Temp\\ConfidenceLevel\\
+CONNECTION_RETRY_ATTEMPS_REDIS=3
+CONNECTION_TIMEOUT_REDIS=5000
+COUNT_SYMBOLS_DEFS_DEBUG=1
+CPP_IMPORT_ALL_FILES_TO_NAMESPACE=true
+CPP_IMPORT_CALCULATION_TIMEOUT=3600
+CPP_REMOVE_COMMENTS=true
+CUTOFF_MEMBERS_MAX_REFERENCES=50
+CXAUDIT_TREE_VIEW_FLAT=false
+DELETE_PREPROCESSING_TEMPORARY_FILES=true
+DENY_LIST_MEMBER_ACCESS=
+DENY_LIST_METHODS=
+DENY_LIST_OBJECTS=
+DENY_LIST_QUALIFIED_NAME=
+DEPRECATED_METHODS=CxDebug\s*\(,cxLog.WriteDebugMessage(;new\s+CxList\s*\(, All.NewCxList(;CxList\s*.\s*isFrameworkActive\s*\(,cxScan.IsFrameworkActive(;CxList\s*.\s*getScanProperty\s*\(,cxScan.GetScanProperty(;\.\s*fbn\s*\(,.FindByName(;\.\s*fbsn\s*\(,.FindByShortName(;\.\s*fbt\s*\(,.FindByType(;\.\s*fbma\s*\(,.FindByMemberAccess(;\.\s*dib\s*\(,.DataInfluencedBy(;\.\s*dio\s*\(,.DataInfluencingOn(;\.\s*cib\s*\(,.ControlInfluencedBy(;\.\s*cio\s*\(,.ControlInfluencingOn(;\.\s*ib\s*\(,.InfluencedBy(;\.\s*io\s*\(,.InfluencingOn(
+DISABLE_FG_PARALLEL=true
+DISABLE_HARDWARE_PERF_CALC=false
+DISABLE_QUERY_MRW=true
+DISABLE_WATCHDOGS=false
+ENABLE_CPP_IBM_DECODE=false
+ENABLE_CPP_VA_ARG_MACRO=false
+ENABLE_FICTITIOUS_DEFINITION=false
+ENABLE_RESULTS_CHUNKING=true
+ENABLE_SAVE_CPP_PREPROCESSED_FILES=true
+ENCODING=utf-8
+ENGINE_CLEAR_AT_END_OF_SCAN=false
+EXCLUDE_PATH=jquery;angular.js;angular-animate.js;angular-aria.js;angular-cookies.js;angular-messages.js;angular-mocks.js;angular-resource.js;angular-route.js;angular-sanitize.js;angular-touch.js;angular-scenario.js;angular-loader.js;angular.min.js;angular-resource.min.js;angular-cookies.min.js;angular-loader.min.js;angular-aria.min.js;angular-messages.min.js;angular-mocks.min.js;angular-route.min.js;angular-sanitize.min.js;angular-touch.min.js;angular-scenario.min.js;jsoneditor.js;jsoneditor.min.js
+EXCLUDED_EXTENSIONS_FOR_PROJECT_TYPE_DECISION=.config;.xaml;.tag;.xml;.h;.inc;.cgi;.properties;.txt
+EXIT_SCAN_IF_WE_CANT_KILL_THREAD=false
+EXPORT_RESULTS_IN_SATE_XML_FORMAT=false
+FG_CONCURRENCY_SIZE=64
+FG_MEMORY_MAX_USAGE_PERCENT=80
+FG_PARSE_MEMORY_WATCHDOG=false
+FG_TIMEOUT_FACTOR=100
+FG_TIMEOUT_SECONDS=-1
+FIX_SCOPES=true
+GC_COLLECT_INTERVAL=100000
+GC_GENERATIONS=0
+GC_TIME=7
+GET_BY_ANCS_RATIO=10
+GLOBAL_CANCELLATION_TIMEOUT=600
+GLOBAL_PARSING_TIMEOUT=600
+IMPORTANT_FILE_ONLY_SCAN=true
+INCLUDE_LEVEL=999
+INCLUDED_EXTENSIONS=.properties;.inc
+INCREMENTAL_DEPTH=3
+INCREMENTAL_SCAN_CLOSURE_SIZE=3
+INCREMENTAL_SCAN_MUST_INCLUDE=
+INCREMENTAL_SCAN_SAME_NAME_LIMIT=10
+INCREMENTAL_SCAN_THRESHOLD=101
+INCREMENTAL_SCAN_THRESHOLD_ACTION=FAIL
+IS_FLOW_SEARCH_PARALLEL=false
+IS_JAVA_SCRIPT_ENABLED=true
+KEEP_ALIVE_ATTEMPTS=3
+KEEP_PREPROCESSED_FILE_VERSION=false
+KPI_MAX_FOR_ONE_RESULT=1
+KPI_MAX_PRINT_RESULTS=1
+KPI_PARTIAL_STAGES_ONLY_TEST_DOM=false
+KPI_TEST_DOM_STAGES=
+LANGUAGE_THRESHOLD=2.1
+LAZY_FLOW_CALL_STACK_PARAM=1
+LAZY_FLOW_DISPLAY_ALL_NODES=false
+LAZY_FLOW_FLOW_SO_FAR_PARAM=1
+LAZY_FLOW_HOT_NODE_VISITS=-1
+LAZY_FLOW_MAX_CALL_STACK_DEPTH=8
+LAZY_FLOW_MAX_DEPTH_COUNT=10000000
+LAZY_FLOW_MAX_MEMBER_STACK_DEPTH=8
+LAZY_FLOW_MAX_START_POINTS_PER_GROUP=5
+LAZY_FLOW_MAX_VISITED_NODES_IN_ONE_REFERENCE_SEARCH=2048
+LAZY_FLOW_MEMBER_STACK_PARAM=1
+LAZY_FLOW_MIN_VISIT_COUNT=30
+LAZY_FLOW_MONITOR_INTLRVAL=00:01:00
+LAZY_FLOW_PRINT_FLOW_BY_NODE_TYPE_STATISTICS=false
+LAZY_FLOW_SCOPE_SEARCH_MAX_DEPTH=16
+LAZY_FLOW_STATISTICS=false
+LAZY_FLOW_TASK_MANAGER_TYPE=Tpl
+LAZY_FLOW_TRACE_CUSTOM_FLOWS=false
+LAZY_FLOW_USE_MONITOR=true
+LAZY_FLOW_VISITED_NODES_CACHE_CONSISTENCY_LEVEL=High
+LAZY_STATISTICS_INCLUDE_CUT_OFF_FLOW=false
+LOAD_NODE_TO_GRAPH=true
+LOAD_NODE2GRAPH_ADDITIONAL_MEMBERS=true
+LOG_TOKEN_CONTENT=false
+MANUAL_CALL_GC_COLLECT=false
+MATCH_LANGUAGES=2, 65536, 32768; 1, 32
+MATCH_MEMBERS=false
+MAX_ACCEPTABLE_JUMP_DURATION=00:02:00
+MAX_ALLOWED_RESULTS_FILE_SIZE_IN_MB=100
+MAX_BAD_LINES=50
+MAX_DEPTH_TO_ENTER_METHODS=2
+MAX_DOM_METHODS_TO_PROCESS=99999999999
+MAX_FILE_PATH_LENGTH=250
+MAX_FOLDER_PATH_LENGTH=4096
+MAX_GST_RESOLVING_DEPTH=400
+MAX_LINES_IN_A_ROW=30
+MAX_MEMBERS_PER_DEFINITION=100
+MAX_NUMBER_OF_PARALLEL_SCANS=2
+MAX_NUMBER_OF_QUERIES=4
+MAX_NUMBER_OF_RESULTS=-1
+MAX_PARSE_EXPR_DEPTH=9100
+MAX_PATH=1
+MAX_PATH_ALGORITHM=true
+MAX_PATH_LENGTH=57
+MAX_PERSISTENT_OBJECTS=150
+MAX_QUERY_TIME=60
+MAX_QUERY_TIME_PER_100K=15
+MAX_QUERY_TIME_WAIT_FACTOR=1.0
+MAX_XML_SIZE_KB=1024
+MAXFILESIZEKB=1024
+MAXIMUM_PROCESSING_TIME=2880
+MAXIMUM_VIRTUAL_MEMORY=0
+MEMBERS_DEPTH=1
+MEMORY_LIMIT=350
+MEMORY_WATCHDOG_COUNTER=5
+MEMORY_WATCHDOG_MAX_USAGE_PERCENT=95
+MEMORY_WATCHDOG_MIN_AVAIL_MB=2048
+MESSAGE_QUEUE_DELAY_BETWEEN_RETRIES=6000
+MESSAGE_QUEUE_NUMBER_OF_OPEN_RETRIES=10
+MESSAGE_QUEUE_NUMBER_OF_SEND_RETRIES=90
+MESSAGE_QUEUE_OPEN_TIMEOUT=10
+MINIMAL_DISK_SPACE=100
+MINIMUM_AVAILABLE_MEMORY=-1
+MULTI_LANGUAGE_MODE=1
+NUM_TOP_TIME_LINES=0
+NUMBER_OF_RESULTS_FOR_CONFIDENCE_LEVEL_DATA_COLLECTION=150
+PARAMETER_VALUE_CORES_NUMBER=SingleSocket,0;MultiSocket,0
+PARAMETERS_LOGGING=ALL
+PARSING_CANCELLATION_TIMEOUT=120
+PARSING_TIMEOUT=180
+PHP_IMPORT_LIBRARIES_PATH=
+PLSQL_KEEP_COMMANDS=CREATE, DROP, ALTER, SLIST, GRANT, REVOKE, TRUNCATE, EXIT, SAVEPOINT, ROLLBACK
+POST_RESOLVE_INCREMENTAL_SCAN_STEP_TIMEOUT_FACTOR=10
+POST_RESOLVE_INCREMENTAL_SCAN_STEP_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP1_TIMEOUT_FACTOR=20
+POST_RESOLVER_STEP1_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP2_TIMEOUT_FACTOR=40
+POST_RESOLVER_STEP2_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP3_0_TIMEOUT_FACTOR=250
+POST_RESOLVER_STEP3_0_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP3_1_TIMEOUT_FACTOR=20
+POST_RESOLVER_STEP3_1_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP3_2_TIMEOUT_FACTOR=20
+POST_RESOLVER_STEP3_2_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP3_3_TIMEOUT_FACTOR=120
+POST_RESOLVER_STEP3_3_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP3_4_TIMEOUT_FACTOR=20
+POST_RESOLVER_STEP3_4_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP3_5_TIMEOUT_FACTOR=20
+POST_RESOLVER_STEP3_5_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP4_TIMEOUT_FACTOR=40
+POST_RESOLVER_STEP4_TIMEOUT_SECONDS=-1
+PP_RESOLVER_ALL_FIX_CHAIN_COSTRUCTOR_INVOCATION_TIMEOUT_SECONDS=1800
+PP_RESOLVER_ALL_FIX_INHERITED_MEMBER_TIMEOUT_SECONDS=1800
+PP_RESOLVER_ALL_FIX_MEMBER_ORDER_TIMEOUT_SECONDS=1800
+PP_RESOLVER_ALL_SYNC_THIS_PARAMETER_MEMBERS_OF_METHOD_CALLS_TIMEOUT_SECONDS=1800
+PP_RESOLVER_ASPVB_FIX_ARRAY_ASP_VBS_VB6_TIMEOUT_SECONDS=10800
+PP_RESOLVER_ASPVB_FIX_ASP_REQUEST_TYPE_NAME_TIMEOUT_SECONDS=10800
+PP_RESOLVER_ASPVB_FIX_INCLUDE_WRAPPING_METHOD_ASP_TIMEOUT_SECONDS=10800
+PP_RESOLVER_ASPVB_FIX_METHOD_CALL_FROM_IDENTIFIER_ASP_VBS_VB6_TIMEOUT_SECONDS=10800
+PP_RESOLVER_FINAL_BUILD_DEFINITION_2_NODES_TIMEOUT_SECONDS=10800
+PP_RESOLVER_FRAMEWORK_TIMEOUT_SECONDS=10800
+PP_RESOLVER_GOTO_STMTS_TIMEOUT_SECONDS=1800
+PP_RESOLVER_PLSQL_FIX_ARRAY_TIMEOUT_SECONDS=10800
+PP_RESOLVER_PLSQL_FIX_METHOD_CALL_FROM_IDENTIFIER_TIMEOUT_SECONDS=10800
+PP_RESOLVER_PLSQL_FIX_REF_TIMEOUT_SECONDS=10800
+PRINT_BAD_FILES=false
+PRINT_DEBUG=false
+PRINT_DOM_DEFINITIONS=false
+PRINT_DOM_DISTRIBUTION=true
+PRINT_DOM_DISTRIBUTION_BY_LANGUAGE=0
+PRINT_LOG=true
+PRINT_QUERIES_FILE=false
+PRINT_RESOLVER_DATA_BY_DOM_TYPE=false
+PRINT_TEST_DOM_CONSISTENCY=false
+PROCESS_AFFINITY_MANAGER_SETTINGS=SingleSocket,NoLimitation;MultiSocket,NoLimitation
+PROCESS_ASCX=true
+PROCESS_ASPX=true
+PROCESS_UNCOMPILED_FILES=false
+PROFILE_QUERIES=1
+PROFILE_QUERIES_DISPLAY=1
+PUBLISH_SCAN_METRICS=True
+QUERY_MRW_COUNTER=30
+QUERY_MRW_MAX_USAGE_PERCENT=99
+QUERY_MRW_MIN_AVAIL_MB=100
+QUERY_MRW_MIN_USAGE_PERCENT=95
+QUERY_PARAMETERS=
+QUERY_PATH=Queries
+QUERY_SECURITY_CONTINUE_WITH_NOT_RUNNING_QUERY=true
+QUERY_SECURITY_PRINT_ALLOWLIST=false
+QUERY_SECURITY_TYPE=APPLICATION_SECURITY
+QUICK_QUERIES_MODE=OFF
+REDIS_CONNECTION_STRING=localhost
+REDUCE_DUP_BY_LANGUAGE=
+REFLECTOR_PATH=
+REGEX_MATCH_TIMEOUT_DEFAULT=60
+REGEX_MATCH_TIMEOUT_INCREMENTAL_SCAN=300
+REPORT_INFO_LIMIT=10
+REPORT_WARNING_LIMIT=20
+REPORT_WARNING_TRIGGER_LIMIT=300
+RESOLVE_EXPRESSIONS_TIMEOUT_FACTOR=40
+RESOLVE_EXPRESSIONS_TIMEOUT_SECONDS=-1
+RESOLVE_IMPORTS_TIMEOUT_FACTOR=10
+RESOLVE_IMPORTS_TIMEOUT_SECONDS=-1
+RESOLVE_NESTED_ROUTERS_MAX_DEPTH=5
+RESOLVE_NESTEDROUTERS_TIMEOUT_FACTOR=40
+RESOLVE_ROUTECALLS_TIMEOUT_FACTOR=40
+RESOLVE_ROUTERVIEWCALLS_TIMEOUT_FACTOR=40
+RESOLVE_TYPE_MAX_RECURSION_DEPTH=200
+RESOLVE_VIEWCALLS_TIMEOUT_FACTOR=40
+RESOLVE_VIEWCALLS_TIMEOUT_SECONDS=-1
+RESOLVER_OPERATOR_OVERLOADING_TIMEOUT_FACTOR=150
+RESOLVER_OPERATOR_OVERLOADING_TIMEOUT_SECONDS=-1
+RESOLVER_STEP1_TIMEOUT_FACTOR=10
+RESOLVER_STEP1_TIMEOUT_SECONDS=-1
+RESOLVER_STEP2_TIMEOUT_FACTOR=10
+RESOLVER_STEP2_TIMEOUT_SECONDS=-1
+RESOLVER_STEP3_TIMEOUT_FACTOR=10
+RESOLVER_STEP3_TIMEOUT_SECONDS=-1
+RESOLVER_STEP4_TIMEOUT_FACTOR=10
+RESOLVER_STEP4_TIMEOUT_SECONDS=-1
+RESOLVER_STEP5_TIMEOUT_FACTOR=150
+RESOLVER_STEP5_TIMEOUT_SECONDS=-1
+RESOLVER_TIMEOUT_MINIMUM_SECONDS=30
+RUN_ORIGINAL_QUERY_BORDER=7
+RUN_ORIGINAL_QUERY_SEQUENCE=false
+SCAN_PROJECT_ACCORDING_TO_QUERY_LANGUAGE=false
+SHOW_COVERAGE_OF_QUERIES=false
+SHOW_EXCEPTIONS_IN_DEBUG_MODE=true
+SHOW_LOAD_DOM=false
+SHOW_PER_LANGUAGE_PARSE_STATISTICS=true
+SHOW_RESULTS_HASHES=false
+SHOW_SCAN_COVERAGE=true
+SHOW_SCAN_QUALITY=false
+SIMILARITY_ID_VERSION=0
+SKIP_LOOKUPINIMPORTS_IF_DEF_EXIST=true
+SMALL_PROJECT_BORDER=3000000
+SPLIT_MESSAGE_WITH_MULTIPLE_LINES_TO_MULTIPLE_MESSAGES=false
+START_PATH_FROM_MEMBERS=false
+STATUS_UPDATE_INTERVAL_SEC=30
+SUPPORTED_LANGUAGES=1,32;128,256;4,2048
+SUPPORTED_MATCH_VARIABLE_FUNCTION_LANGUAGES=2
+TEST_DOM_CONSISTENCY=false
+TEST_DOM_CONSISTENCY_ALL_SYMBOLS_MATCH=false
+TEST_DOM_CONSISTENCY_CHECK_ID_BY_FIRST_NAME=false
+TEST_DOM_CONSISTENCY_GLOBAL_SCOPE=false
+TIME_LIMIT_WAITING_FOR_CONFIDENCE_LEVEL_DATA_COLLECTION=180000
+TIMEOUT_GOOD_PROGRESS_PERCENT=70
+TIMEOUT_OVER_TIME_PERCENT=15
+UNIFIED_LANGUAGES_ACTIVE=false
+USE_ASP_INCLUDE_BY_REFERENCE=true
+USE_CONSOLE_INPUTS=false
+USE_ENV_INPUTS=false
+USE_NEW_CSHARP=true
+USE_NEW_PHP=false
+USE_NEW_PLSQL=false
+USE_NEW_SWIFT=true
+USE_ORDERED_REDUCEFLOW=true
+USE_PEBBLE=false
+USE_SCALA_DOUBLEPASS_TYPEINFERENCE=true
+WATCHDOG_ABORT_SCAN_ON_LOW_MEMORY=false
+WATCHDOG_ABORT_SCAN_ON_LOW_MEMORY_COUNTER=5
+WATCHDOG_ABORT_SCAN_ON_LOW_MEMORY_MAX_USAGE_PERCENT=96
+WATCHDOG_ABORT_SCAN_ON_LOW_MEMORY_MIN_AVAIL_MB=1024
+WATCHDOG_GC_AGGRESSIVE_STEPS=256
+WATCHDOG_GC_INTERVAL_MIN=10
+WATCHDOG_GC_STEPS=448
+WATCHDOG_INTERVAL_SEC=600
+WATCHDOG_MEMORY_TEST_ENABLED=false
+WATCHDOG_MEMORY_TEST_PACE_MB_PER_SEC=100
+WATCHDOG_STAGE_STOP_BY_PROCENT=
+WRITE_CONFIDENCE_LEVEL_TO_LOG=false
+  
+24/05/2023 10:29:20,566 [MainThread_CxAudit] INFO  Available memory: 18662 Used memory: 318 Elapsed Time: 00:00:13.3406031 [Unspecified] - Current Engine Configuration from DefaultConfig.xml: 
+_____________________________
+  
+24/05/2023 10:29:20,760 [MainThread_CxAudit] INFO  Available memory: 18662 Used memory: 318 Elapsed Time: 00:00:13.5350706 [Unspecified] - Starting keepAlive timer with interval of: 86400 seconds  
+24/05/2023 10:29:20,780 [MainThread_CxAudit] WARN  Available memory: 18662 Used memory: 318 Elapsed Time: 00:00:13.5548995 [Unspecified] - The group LUA_EXTENSIONS doesn't exist in _extensionsByGroups structure  
+24/05/2023 10:29:26,731 [19] INFO  Available memory: 18643 Used memory: 344 Elapsed Time: 00:00:19.5062625 [Unspecified] - Key [CX_AUDIT_SOURCES_CACHE_PATH] = 'CxAuditSrc' (AppSetting)  
+24/05/2023 10:29:26,762 [19] INFO  Available memory: 18643 Used memory: 344 Elapsed Time: 00:00:19.5370727 [Unspecified] - Could Not find Program Language Key: Lua
+  
+24/05/2023 10:29:39,332 [MainThread_CxAudit] INFO  Available memory: 18623 Used memory: 360 Elapsed Time: 00:00:32.1069015 [Unspecified] - ProjectLoading_Shown -- start  
+24/05/2023 10:29:39,335 [11] INFO  Available memory: 18623 Used memory: 360 Elapsed Time: 00:00:32.1094573 [Unspecified] - ProjectLoadingThread -- start  
+24/05/2023 10:29:39,335 [11] INFO  Available memory: 18623 Used memory: 360 Elapsed Time: 00:00:32.1095793 [Unspecified] - Begin loading sources from project original location : 'C:\Temp\code'  
+24/05/2023 10:29:39,352 [11] INFO  Available memory: 18623 Used memory: 360 Elapsed Time: 00:00:32.1270802 [Unspecified] - End loading sources from project original location to local destination location : 'C:\Users\borma\AppData\Local\Checkmarx\Checkmarx SAST\CxAuditSrc\code'  
+24/05/2023 10:29:44,935 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.7100996 [Unspecified] - Number of CPUs in this computer : 1  
+24/05/2023 10:29:44,954 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.7290417 [Unspecified] - Watchdog: starting
+Started with period 600 sec
+GC Server mode enabled: True
+GC Large object heap compacting mode: Default
+GC Latency mode: Interactive
+GC Allow Very Large Objects: true
+GC Invocation enabled: True
+GC Invocation period: 00:10:00
+GC Steps: CFG, DFG, Sew
+GC Aggressive Steps: CFG, DFG, Sew
+Minimal disk space: 100 MB
+Watching for configuration files changes in [C:\Users\borma\AppData\Local\Checkmarx\Checkmarx SAST]
+  
+24/05/2023 10:29:44,963 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.7385729 [Resolving] - Set default timeout interval for evaluating regular expression patterns ('REGEX_DEFAULT_MATCH_TIMEOUT' property) to 60 seconds.  
+24/05/2023 10:29:44,967 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.7418910 [Resolving] - ProjectName IsNullOrEmpty: C:\Temp\code  
+24/05/2023 10:29:44,969 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.7435625 [Resolving] - Solution relative path is: 'C:\Temp\code'  
+24/05/2023 10:29:44,969 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.7437175 [Resolving] - Solution dummy file is: 'C:\Temp\code\CxDummy.cx'  
+24/05/2023 10:29:44,970 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.7447257 [Resolving] - Begin analyzing sources of the project 'C:\Temp\code'  
+24/05/2023 10:29:44,973 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.7480150 [Resolving] - Begin analyzing DOM of the project 'C:\Temp\code'  
+24/05/2023 10:29:44,976 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.7508085 [Resolving] - Number of exclude files =0  
+24/05/2023 10:29:45,215 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.9901406 [Resolving] - This Project will scan the following languages  JavaScript, Common  
+24/05/2023 10:29:45,217 [11] WARN  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.9924309 [Resolving] - number of languages in ExtensionsLists dictionary 81 different than extensionNameToTypeMapping 87 
+ Please update your software!!!!!!!!!!!!  
+24/05/2023 10:29:45,217 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.9926880 [Resolving] - The following source files were identified: JavaScript=1
+MULTI_LANGUAGE_MODE is set to scan one primary language and all scripting languages
+Languages that will be scanned: JavaScript=1
+  
+24/05/2023 10:29:45,218 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.9942843 [Resolving] - Scanning or Auditing Project type code is: 1073741832 that has 159 lines of code  
+24/05/2023 10:29:45,222 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.9970529 [Resolving] - Could Not find Program Language Key: Lua
+  
+24/05/2023 10:29:45,222 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:37.9970919 [Resolving] - Actually scanned lines of code: 129  
+24/05/2023 10:29:45,227 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.0020571 [Resolving] - Engine Phase (Start): Parsing Javascript  
+24/05/2023 10:29:45,267 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.0424087 [FrameworkFactory] - Begin initializing Frameworks for JavaScript  
+24/05/2023 10:29:45,397 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.1724925 [FrameworkFactory] - Frameworks found for JavaScript: None  
+24/05/2023 10:29:45,397 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.1725603 [FrameworkFactory] - Finish initializing Frameworks for JavaScript  
+24/05/2023 10:29:45,398 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.1729792 [Parsing] - Entering preprocessing sub-stage of JavaScript  
+24/05/2023 10:29:45,402 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.1771002 [Parsing] - JavascriptProject.GetGraph(): Source folder: C:\Temp\code  
+24/05/2023 10:29:45,407 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.1825954 [Parsing] - Exiting preprocessing sub-stage of JavaScript  
+24/05/2023 10:29:45,407 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.1826442 [Parsing] - Entering parsing sub-stage of JavaScript  
+24/05/2023 10:29:45,439 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.2144728 [Parsing] - Exiting parsing sub-stage of JavaScript  
+24/05/2023 10:29:45,440 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.2145495 [Parsing] - Entering type inference sub-stage of JavaScript  
+24/05/2023 10:29:45,441 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.2161200 [Parsing] - Enter collecting identifiers for 3 files  
+24/05/2023 10:29:45,460 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.2349376 [Parsing] - Exit collecting identifiers  
+24/05/2023 10:29:45,596 [11] WARN  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.3706444 [Parsing] - C:\Temp\code\build-config-comparer.js:5:6:Exception of type 'Antlr4.Runtime.NoViableAltException' was thrown.  
+24/05/2023 10:29:45,707 [11] WARN  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.4821691 [Parsing] - C:\Temp\code\build-config-comparer.js:130:80:Exception of type 'Antlr4.Runtime.NoViableAltException' was thrown.  
+24/05/2023 10:29:45,707 [11] WARN  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.4827442 [Parsing] - C:\Temp\code\build-config-comparer.js:76:37:Exception of type 'Antlr4.Runtime.NoViableAltException' was thrown.  
+24/05/2023 10:29:45,788 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.5632839 [Parsing] - Exit collecting identifiers  
+24/05/2023 10:29:45,788 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.5633759 [Parsing] - Exiting type inference sub-stage of JavaScript  
+24/05/2023 10:29:45,789 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.5638936 [Parsing] - Enter collecting implicit globals  
+24/05/2023 10:29:45,806 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.5807860 [Parsing] - Exit collecting implicit globals  
+24/05/2023 10:29:45,806 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.5808976 [Parsing] - Entering AST sub-stage of JavaScript  
+24/05/2023 10:29:45,812 [23] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.5873841 [Parsing] - Started processing file: C:\Program Files\Checkmarx\Checkmarx Audit\Plugins\JavaScript\http.js  
+24/05/2023 10:29:45,812 [5] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.5874775 [Parsing] - Started processing file: C:\Program Files\Checkmarx\Checkmarx Audit\Plugins\JavaScript\react.js  
+24/05/2023 10:29:45,812 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.5875297 [Parsing] - Started processing file: C:\Temp\code\build-config-comparer.js  
+24/05/2023 10:29:45,833 [23] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.6077204 [Parsing] - Finished processing file: C:\Program Files\Checkmarx\Checkmarx Audit\Plugins\JavaScript\http.js  
+24/05/2023 10:29:45,834 [5] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.6087116 [Parsing] - Finished processing file: C:\Program Files\Checkmarx\Checkmarx Audit\Plugins\JavaScript\react.js  
+24/05/2023 10:29:45,856 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.6305240 [Parsing] - Finished processing file: C:\Temp\code\build-config-comparer.js  
+24/05/2023 10:29:45,856 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.6305979 [Parsing] - Exiting AST sub-stage of JavaScript  
+24/05/2023 10:29:45,856 [11] INFO  Available memory: 18598 Used memory: 374 Elapsed Time: 00:00:38.6307512 [Parsing] - Entering conversions sub-stage of JavaScript  
+24/05/2023 10:29:45,985 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.7599593 [Parsing] - Exiting conversions sub-stage of JavaScript  
+24/05/2023 10:29:45,985 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.7605522 [Parsing] - Entering AST to DOM sub-stage of JavaScript  
+24/05/2023 10:29:46,084 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.8590512 [Parsing] - Exiting AST to DOM sub-stage of JavaScript  
+24/05/2023 10:29:46,084 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.8597555 [Resolving] - Engine Phase ( End ): Parsing Javascript  
+24/05/2023 10:29:46,127 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9019978 [Resolving] - Engine Phase (Start): Resolver JavaScript  
+24/05/2023 10:29:46,130 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9054745 [Infrastructure] - 
+	#defs    NewDS
+	  0       221  
+24/05/2023 10:29:46,132 [ResolveSymbols_Step1] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9072154 [Resolving] - Enter ResolveSymbols_Step1 of JavaScript  
+24/05/2023 10:29:46,134 [ResolveSymbols_Step1] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9085660 [Resolving] - Exit  ResolveSymbols_Step1 of JavaScript  
+24/05/2023 10:29:46,134 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9087529 [Infrastructure] - 
+	#defs    NewDS
+	  0       221  
+24/05/2023 10:29:46,134 [ResolveSymbols_Step2] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9092092 [Resolving] - Enter ResolveSymbols_Step2 of JavaScript  
+24/05/2023 10:29:46,134 [ResolveSymbols_Step2] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9092587 [Resolving] - Exit  ResolveSymbols_Step2 of JavaScript  
+24/05/2023 10:29:46,134 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9093773 [Infrastructure] - 
+	#defs    NewDS
+	  0       221  
+24/05/2023 10:29:46,134 [ResolveSymbols_Step3] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9095310 [Resolving] - Enter ResolveSymbols_Step3 of JavaScript  
+24/05/2023 10:29:46,137 [ResolveSymbols_Step3] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9117043 [Resolving] - Exit  ResolveSymbols_Step3 of JavaScript  
+24/05/2023 10:29:46,137 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9118476 [Infrastructure] - 
+	#defs    NewDS
+	  0       221  
+24/05/2023 10:29:46,137 [ResolveImports] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9120419 [Resolving] - Enter ResolveImports of JavaScript  
+24/05/2023 10:29:46,138 [ResolveImports] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9129215 [Resolving] - Exit  ResolveImports of JavaScript  
+24/05/2023 10:29:46,138 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9130846 [Infrastructure] - 
+	#defs    NewDS
+	  0       221  
+24/05/2023 10:29:46,138 [ResolveSymbols_Step4] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9132881 [Resolving] - Enter ResolveSymbols_Step4 of JavaScript  
+24/05/2023 10:29:46,155 [ResolveSymbols_Step4] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9299037 [Resolving] - Exit  ResolveSymbols_Step4 of JavaScript  
+24/05/2023 10:29:46,155 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9300220 [Infrastructure] - 
+	#defs    NewDS
+	  0       224  
+24/05/2023 10:29:46,155 [ResolveSymbols_Step5] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9302401 [Resolving] - Enter ResolveSymbols_Step5 of JavaScript  
+24/05/2023 10:29:46,162 [ResolveSymbols_Step5] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9367856 [Resolving] - Exit  ResolveSymbols_Step5 of JavaScript  
+24/05/2023 10:29:46,162 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9369184 [Infrastructure] - 
+	#defs    NewDS
+	  0       224  
+24/05/2023 10:29:46,162 [PostResolve1] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9370953 [Resolving] - Engine Phase (Start): PostResolve1 of JavaScript  
+24/05/2023 10:29:46,190 [PostResolve1] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9645289 [Resolving] - Engine Phase ( End ): PostResolve1 of JavaScript  
+24/05/2023 10:29:46,190 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9647217 [Infrastructure] - 
+	#defs    NewDS
+	  0       224  
+24/05/2023 10:29:46,190 [PostResolve2] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:38.9649461 [Resolving] - Engine Phase (Start): PostResolve2 of JavaScript  
+24/05/2023 10:29:46,229 [PostResolve2] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0041152 [Resolving] - Engine Phase ( End ): PostResolve2 of JavaScript  
+24/05/2023 10:29:46,229 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0042838 [Infrastructure] - 
+	#defs    NewDS
+	  0       224  
+24/05/2023 10:29:46,229 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0046480 [Resolving] - Engine Phase (Start): PostResolve3 of JavaScript  
+24/05/2023 10:29:46,229 [PostResolve3_0] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0049435 [Resolving] - Engine Phase (Start): PostResolve3_0 of JavaScript  
+24/05/2023 10:29:46,242 [PostResolve3_0] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0170553 [Resolving] - Engine Phase ( End ): PostResolve3_0 of JavaScript  
+24/05/2023 10:29:46,242 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0172165 [Infrastructure] - 
+	#defs    NewDS
+	  0       224  
+24/05/2023 10:29:46,242 [PostResolve3_1] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0175024 [Resolving] - Engine Phase (Start): PostResolve3_1 of JavaScript  
+24/05/2023 10:29:46,244 [PostResolve3_1] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0196440 [Resolving] - Engine Phase ( End ): PostResolve3_1 of JavaScript  
+24/05/2023 10:29:46,244 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0197734 [Infrastructure] - 
+	#defs    NewDS
+	  0       224  
+24/05/2023 10:29:46,245 [PostResolve3_2] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0199742 [Resolving] - Engine Phase (Start): PostResolve3_2 of JavaScript  
+24/05/2023 10:29:46,246 [PostResolve3_2] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0210318 [Resolving] - Engine Phase ( End ): PostResolve3_2 of JavaScript  
+24/05/2023 10:29:46,246 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0211011 [Infrastructure] - 
+	#defs    NewDS
+	  0       224  
+24/05/2023 10:29:46,246 [PostResolve3_3] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0212669 [Resolving] - Engine Phase (Start): PostResolve3_3 of JavaScript  
+24/05/2023 10:29:46,254 [PostResolve3_3] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0296749 [Resolving] - Engine Phase ( End ): PostResolve3_3 of JavaScript  
+24/05/2023 10:29:46,254 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0297848 [Infrastructure] - 
+	#defs    NewDS
+	  0       171
+	  1        39
+	  2        14  
+24/05/2023 10:29:46,255 [PostResolve3_4] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0300710 [Resolving] - Engine Phase (Start): PostResolve3_4 of JavaScript  
+24/05/2023 10:29:46,257 [PostResolve3_4] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0322290 [Resolving] - Engine Phase ( End ): PostResolve3_4 of JavaScript  
+24/05/2023 10:29:46,257 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0323707 [Infrastructure] - 
+	#defs    NewDS
+	  0       171
+	  1        39
+	  2        14  
+24/05/2023 10:29:46,257 [PostResolve3_5] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0325932 [Resolving] - Engine Phase (Start): PostResolve3_5 of JavaScript  
+24/05/2023 10:29:46,259 [PostResolve3_5] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0344928 [Resolving] - Engine Phase ( End ): PostResolve3_5 of JavaScript  
+24/05/2023 10:29:46,259 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0345777 [Infrastructure] - 
+	#defs    NewDS
+	  0       171
+	  1        39
+	  2        14  
+24/05/2023 10:29:46,259 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0346413 [Resolving] - Engine Phase ( End ): PostResolve3 of JavaScript  
+24/05/2023 10:29:46,259 [PostResolve4] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0348108 [Resolving] - Engine Phase (Start): PostResolve4 of JavaScript  
+24/05/2023 10:29:46,261 [PostResolve4] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0360322 [Resolving] - Engine Phase ( End ): PostResolve4 of JavaScript  
+24/05/2023 10:29:46,261 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0361494 [Infrastructure] - 
+	#defs    NewDS
+	  0       171
+	  1        39
+	  2        14  
+24/05/2023 10:29:46,261 [ResolveOperatorOverloading] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0363109 [Resolving] - Enter ResolveOperatorOverloading of JavaScript  
+24/05/2023 10:29:46,263 [ResolveOperatorOverloading] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0382607 [Resolving] - Exit  ResolveOperatorOverloading of JavaScript  
+24/05/2023 10:29:46,263 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0383785 [Infrastructure] - 
+	#defs    NewDS
+	  0       171
+	  1        39
+	  2        14  
+24/05/2023 10:29:46,263 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0387510 [Resolving] - Engine Phase (Start): FrameworkFactoryResolver of JavaScript  
+24/05/2023 10:29:46,263 [ResolveViewCalls] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0389485 [Resolving] - Enter ResolveViewCalls of JavaScript  
+24/05/2023 10:29:46,265 [ResolveViewCalls] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0403890 [Resolving] - Exit  ResolveViewCalls of JavaScript  
+24/05/2023 10:29:46,265 [ResolveNestedRouters] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0405962 [Resolving] - Enter ResolveNestedRouters of JavaScript  
+24/05/2023 10:29:46,267 [ResolveNestedRouters] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0422771 [Resolving] - Exit  ResolveNestedRouters of JavaScript  
+24/05/2023 10:29:46,267 [ResolveRouteCalls] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0424792 [Resolving] - Enter ResolveRouteCalls of JavaScript  
+24/05/2023 10:29:46,269 [ResolveRouteCalls] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0441497 [Resolving] - Exit  ResolveRouteCalls of JavaScript  
+24/05/2023 10:29:46,269 [ResolveRouterViewCalls] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0443455 [Resolving] - Enter ResolveRouterViewCalls of JavaScript  
+24/05/2023 10:29:46,270 [ResolveRouterViewCalls] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0451023 [Resolving] - Exit  ResolveRouterViewCalls of JavaScript  
+24/05/2023 10:29:46,270 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0452246 [Resolving] - Engine Phase ( End ): FrameworkFactoryResolver of JavaScript  
+24/05/2023 10:29:46,270 [AttributeExpressions] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0454349 [Resolving] - Enter AttributeExpressions of JavaScript  
+24/05/2023 10:29:46,271 [AttributeExpressions] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0467374 [Resolving] - Exit  AttributeExpressions of JavaScript  
+24/05/2023 10:29:46,271 [ResolveExpressions] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0469430 [Resolving] - Enter ResolveExpressions of JavaScript  
+24/05/2023 10:29:46,272 [ResolveExpressions] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0479192 [Resolving] - Exit  ResolveExpressions of JavaScript  
+24/05/2023 10:29:46,273 [ResolveMethodReferences] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0481333 [Resolving] - Enter ResolveMethodReferences of JavaScript  
+24/05/2023 10:29:46,274 [ResolveMethodReferences] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0495839 [Resolving] - ResolveMethodReferences: Processing 129 symbols  
+24/05/2023 10:29:46,277 [ResolveMethodReferences] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0521160 [Resolving] - ResolveMethodReferences: Finished creating cache  
+24/05/2023 10:29:46,281 [ResolveMethodReferences] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0568791 [Resolving] - ResolveMethodReferences: Updating 3 MethodRef objects  
+24/05/2023 10:29:46,286 [ResolveMethodReferences] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0613811 [Resolving] - Exit  ResolveMethodReferences of JavaScript  
+24/05/2023 10:29:46,286 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0618595 [Resolving] - Enter ResolveSymbolsSetFullNames of JavaScript  
+24/05/2023 10:29:46,286 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0619234 [Resolving] - Exit  ResolveSymbolsSetFullNames of JavaScript  
+24/05/2023 10:29:46,287 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0622856 [Resolving] - Enter ResolveSymbolsCleanup of JavaScript  
+24/05/2023 10:29:46,287 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0625013 [Resolving] - Exit  ResolveSymbolsCleanup of JavaScript  
+24/05/2023 10:29:46,287 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0625654 [Infrastructure] - 
+	#defs    NewDS
+	  0       174
+	  1        39
+	  2        14  
+24/05/2023 10:29:46,287 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0626147 [Resolving] - Engine Phase ( End ): Resolver JavaScript  
+24/05/2023 10:29:46,296 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0712679 [Resolving] - Finish analyzing DOM of the project 'C:\Temp\code'  
+24/05/2023 10:29:46,322 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0966311 [Unspecified] - Number of DOM objects: 653  
+24/05/2023 10:29:46,324 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0990725 [Unspecified] - Number of -1 objects: 178 which is 27.25881%  
+24/05/2023 10:29:46,324 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0992183 [Unspecified] - Number of JavaScript objects: 475 which is 72.7412%  
+24/05/2023 10:29:46,324 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.0993650 [Unspecified] - -------Parsing Summary-------  
+24/05/2023 10:29:46,331 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1056238 [Resolving] - Scan Accuracy
+---------------------------
+Total files              	1
+Good files:              	0
+Partially good files:    	1
+Bad files:               	0
+Parsed LOC:              	159
+Good LOC:                	156
+Bad LOC:                 	3
+Number of DOM Objects:   	653
+Scan coverage:           	66%
+Scan coverage LOC:       	98.11%
+  
+24/05/2023 10:29:46,334 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1088558 [Resolving] - Per-Language Parse Statistics
+per-language-parse-statistics,language,total-files,good-files,partially-good-files,bad-files,file-coverage%,parsed-loc,good-loc,bad-loc,loc-coverage%,dom-objects
+per-language-parse-statistics,JavaScript,1,0,1,0,66,159,156,3,99.36,475
+per-language-parse-statistics,_total,1,0,1,0,66,159,156,3,99.36,653
+  
+24/05/2023 10:29:46,338 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1124982 [Resolving] - Engine Phase (Start): PostPostResolve  
+24/05/2023 10:29:46,347 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1224672 [Resolving] - DynamicallyLinkElements for JavaScript.  
+24/05/2023 10:29:46,348 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1225159 [Resolving] - DynamicallyLinkElements ended for JavaScript.  
+24/05/2023 10:29:46,348 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1230147 [Resolving] - Engine Phase (Start): fixing members order  
+24/05/2023 10:29:46,348 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1230931 [Infrastructure] - 
+	#defs    NewDS
+	  0       174
+	  1        39
+	  2        14  
+24/05/2023 10:29:46,351 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1256386 [Infrastructure] - 
+	#defs    NewDS
+	  0       174
+	  1        39
+	  2        14  
+24/05/2023 10:29:46,351 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1256808 [Resolving] - Engine Phase ( End ): fixing members order  
+24/05/2023 10:29:46,351 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1257110 [Resolving] - Engine Phase (Start): fixing inherited members  
+24/05/2023 10:29:46,352 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1269303 [Resolving] - Engine Phase ( End ): fixing inherited members  
+24/05/2023 10:29:46,353 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1281868 [Resolving] - Enter Sync Parameter Members Of Method Calls  
+24/05/2023 10:29:46,362 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1368108 [Resolving] - Exit Sync Parameter Members Of Method Calls  
+24/05/2023 10:29:46,365 [SyncThisParamMOMC] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1395299 [Resolving] - Enter Sync This Parameter Members Of Method Calls  
+24/05/2023 10:29:46,365 [SyncThisParamMOMC] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1402785 [Resolving] - Exit This Sync Parameter Members Of Method Calls  
+24/05/2023 10:29:46,366 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1412466 [Infrastructure] - 
+	#defs    NewDS
+	  0       174
+	  1        39
+	  2        14  
+24/05/2023 10:29:46,366 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1413557 [Resolving] - Engine Phase ( End ): PostPostResolve  
+24/05/2023 10:29:46,367 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1419987 [Resolving] - Starting ConstructorDecl <==> ObjectCreateExpr resolving...  
+24/05/2023 10:29:46,379 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1541997 [Resolving] - Finished ConstructorDecl <==> ObjectCreateExpr resolving...  
+24/05/2023 10:29:46,406 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1805393 [Resolving] - Engine Phase (Start): AbsInt Resolver  
+24/05/2023 10:29:46,406 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1807165 [Resolving] - Enter abstract interpretation 'C:\Temp\code'  
+24/05/2023 10:29:46,418 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.1931153 [Resolving] - AbsInt: maxIterationNum = [2]  
+24/05/2023 10:29:46,426 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.2015705 [Resolving] - AbsInt: number of total methods and namespaces is [4]  
+24/05/2023 10:29:46,578 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.3532398 [Resolving] - AbsInt: iteration [0] took [00:00:00.1489244], processedMethodsCount = [1], totalProcessCalls = [6], reachedCount = [3]  
+24/05/2023 10:29:46,583 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.3580777 [Resolving] - AbsInt: iteration [1] took [00:00:00.0017062], processedMethodsCount = [2], totalProcessCalls = [7], reachedCount = [4]  
+24/05/2023 10:29:46,586 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.3613379 [Resolving] - AbsInt: Up to [10] calls: [4 MemberDecls]
+  
+24/05/2023 10:29:46,586 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.3613885 [Resolving] - Number of processed methods: [2]  
+24/05/2023 10:29:46,598 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.3738396 [Resolving] - Abstract interpretation stats: '68'  
+24/05/2023 10:29:46,598 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.3739006 [Resolving] - Abstract interpretation process took: [00:00:00.1931413]  
+24/05/2023 10:29:46,599 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.3740228 [Resolving] - Exit abstract interpretation 'C:\Temp\code'  
+24/05/2023 10:29:46,599 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.3740462 [Resolving] - Engine Phase ( End ): AbsInt Resolver  
+24/05/2023 10:29:46,600 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.3750760 [Resolving] - Engine Phase (Start): AbsInt Client Resolver  
+24/05/2023 10:29:46,600 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.3752845 [Resolving] - Enter abstract interpretation client resolver calculation 'C:\Temp\code'  
+24/05/2023 10:29:46,600 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.3755609 [Resolving] - Exit abstract interpretation client resolver calculation 'C:\Temp\code'  
+24/05/2023 10:29:46,600 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.3755924 [Resolving] - Engine Phase ( End ): AbsInt Client Resolver  
+24/05/2023 10:29:46,646 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4212943 [Infrastructure] - Num of method invokes:                  15
+Num of method invokes with declarators: 15
+Total countObjects: 653
+Type:                              Percent           No. of objects
+UnknownReference                   12.71057    % 	 No. of nodes:83
+CustomAttributeCollection          9.035222    % 	 No. of nodes:59
+TypeRefCollection                  8.882083    % 	 No. of nodes:58
+Declarator                         6.584992    % 	 No. of nodes:43
+TypeRef                            6.278714    % 	 No. of nodes:41
+RankSpecifierCollection            6.278714    % 	 No. of nodes:41
+ExprStmt                           4.74732     % 	 No. of nodes:31
+MemberAccess                       4.74732     % 	 No. of nodes:31
+FieldDecl                          4.287902    % 	 No. of nodes:28
+StatementCollection                3.828484    % 	 No. of nodes:25
+AssignExpr                         3.675344    % 	 No. of nodes:24
+MethodInvokeExpr                   2.29709     % 	 No. of nodes:15
+MethodRef                          2.29709     % 	 No. of nodes:15
+Param                              2.29709     % 	 No. of nodes:15
+AssociativeArrayExpr               1.990812    % 	 No. of nodes:13
+BinaryExpr                         1.684533    % 	 No. of nodes:11
+ParamDecl                          1.531394    % 	 No. of nodes:10
+StringLiteral                      1.378254    % 	 No. of nodes:9
+MethodDecl                         1.071975    % 	 No. of nodes:7
+ParamDeclCollection                1.071975    % 	 No. of nodes:7
+IfStmt                             1.071975    % 	 No. of nodes:7
+ThisRef                            0.9188361   % 	 No. of nodes:6
+ConstantDeclStmt                   0.9188361   % 	 No. of nodes:6
+AwaitExpr                          0.9188361   % 	 No. of nodes:6
+ReturnStmt                         0.7656968   % 	 No. of nodes:5
+CommentStmtCollection              0.7656968   % 	 No. of nodes:5
+VariableDeclStmt                   0.7656968   % 	 No. of nodes:5
+IntegerLiteral                     0.7656968   % 	 No. of nodes:5
+NamespaceDeclCollection            0.6125574   % 	 No. of nodes:4
+ConstantDecl                       0.6125574   % 	 No. of nodes:4
+NamespaceDecl                      0.4594181   % 	 No. of nodes:3
+ImportCollection                   0.4594181   % 	 No. of nodes:3
+TypeDeclCollection                 0.4594181   % 	 No. of nodes:3
+MemberDeclCollection               0.4594181   % 	 No. of nodes:3
+LambdaExpr                         0.4594181   % 	 No. of nodes:3
+ObjectCreateExpr                   0.4594181   % 	 No. of nodes:3
+IndexerRef                         0.4594181   % 	 No. of nodes:3
+NullLiteral                        0.4594181   % 	 No. of nodes:3
+Import                             0.3062787   % 	 No. of nodes:2
+UnaryExpr                          0.3062787   % 	 No. of nodes:2
+CompileUnit                        0.1531394   % 	 No. of nodes:1
+ClassDecl                          0.1531394   % 	 No. of nodes:1
+BlockStmt                          0.1531394   % 	 No. of nodes:1
+BooleanLiteral                     0.1531394   % 	 No. of nodes:1
+ForEachStmt                        0.1531394   % 	 No. of nodes:1
+TernaryExpr                        0.1531394   % 	 No. of nodes:1
+  
+24/05/2023 10:29:46,663 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4379800 [Unspecified] - Enter building Flows of the project 'C:\Temp\code'  
+24/05/2023 10:29:46,663 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4382012 [Unspecified] - FlowService.BuildSolutionFlowGraphs(): Using lazy flow. Skipping flow graph build stage.  
+24/05/2023 10:29:46,665 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4402483 [Infrastructure] - Enter CreateRegexDb  
+24/05/2023 10:29:46,667 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4419489 [Infrastructure] - Exit CreateRegexDb  
+24/05/2023 10:29:46,667 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4421392 [Unspecified] - Exit building Flows of the project 'C:\Temp\code'  
+24/05/2023 10:29:46,667 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4422764 [Unspecified] - Enter updating pragma of the project 'C:\Temp\code'  
+24/05/2023 10:29:46,668 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4427781 [Resolving] - Enter UpdateJavaScriptLinePragma  
+24/05/2023 10:29:46,670 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4453057 [Resolving] - Exit UpdateJavaScriptLinePragma  
+24/05/2023 10:29:46,670 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4454622 [Unspecified] - Exit updating pragma of the project 'C:\Temp\code'  
+24/05/2023 10:29:46,671 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4462455 [Unspecified] - Enter creating custom flows of the project 'C:\Temp\code'  
+24/05/2023 10:29:46,684 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4591525 [Unspecified] - AddFlowsBetweenNamespaces: BUILTIN_CUSTOM_FLOWS_BETWEEN_NAMESPACES_MAX_SECONDS_FACTOR=3  
+24/05/2023 10:29:46,684 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4593005 [Unspecified] - AddFlowsBetweenNamespaces: BUILTIN_CUSTOM_FLOWS_BETWEEN_NAMESPACES_MAX_SECONDS_FOR_ONE_NAMESPACE=60  
+24/05/2023 10:29:46,684 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4593362 [Unspecified] - AddFlowsBetweenNamespaces: Finding all namespaces.  
+24/05/2023 10:29:46,685 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4598629 [Unspecified] - AddFlowsBetweenNamespaces: Namespaces count: 3  
+24/05/2023 10:29:46,685 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4599143 [Unspecified] - AddFlowsBetweenNamespaces: maxTotalTime=60  
+24/05/2023 10:29:46,685 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4599543 [Unspecified] - AddFlowsBetweenNamespaces: Creating namespaceByName  
+24/05/2023 10:29:46,685 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4600497 [Unspecified] - AddFlowsBetweenNamespaces: Creating namespace queue.  
+24/05/2023 10:29:46,685 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4601200 [Unspecified] - AddFlowsBetweenNamespaces: Starting 20 worker tasks.  
+24/05/2023 10:29:46,687 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4628651 [Unspecified] - AddFlowsBetweenNamespaces: Waiting for tasks to finish.  
+24/05/2023 10:29:46,688 [9] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4639316 [Unspecified] - AddFlowsBetweenNamespaces: Namespaces left to handle: 0. Flows added: 0  
+24/05/2023 10:29:46,689 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4640695 [Unspecified] - AddFlowsBetweenNamespaces: All tasks finished. Flows added 0  
+24/05/2023 10:29:46,689 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4649622 [Unspecified] - AddNamespaceCustomFlow: Adding flows.  
+24/05/2023 10:29:46,691 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4654161 [Unspecified] - AddNamespaceCustomFlow: Finding all field decls to add flow.  
+24/05/2023 10:29:46,696 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4710239 [Unspecified] - AddNamespaceCustomFlow: Task completed. Flows added: 2  
+24/05/2023 10:29:46,712 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4870644 [Unspecified] - Exit creating custom flows of the project 'C:\Temp\code'  
+24/05/2023 10:29:46,712 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4874896 [Resolving] - Engine Phase (Start): AbsInt Flow  
+24/05/2023 10:29:46,712 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.4876758 [Resolving] - Enter abstract interpretation data flow calculation 'C:\Temp\code'  
+24/05/2023 10:29:46,735 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.5103070 [Resolving] - Exit abstract interpretation data flow calculation 'C:\Temp\code'  
+24/05/2023 10:29:46,735 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.5103674 [Resolving] - Engine Phase ( End ): AbsInt Flow  
+24/05/2023 10:29:46,736 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.5108318 [Resolving] - Entering FinalizeDOMNodesProperties()  
+24/05/2023 10:29:46,736 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.5110185 [Resolving] - Exiting FinalizeDOMNodesProperties()  
+24/05/2023 10:29:46,736 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.5111782 [Resolving] - Finish analyzing sources of the project 'C:\Temp\code'  
+24/05/2023 10:29:46,740 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.5156203 [Resolving] - Entering FinalizeDOMNodesProperties()  
+24/05/2023 10:29:46,741 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.5156881 [Resolving] - Exiting FinalizeDOMNodesProperties()  
+24/05/2023 10:29:46,746 [11] INFO  Available memory: 18569 Used memory: 407 Elapsed Time: 00:00:39.5208259 [Queries] - .ctor: CxThreadPool was prepared to run 4 threads.  
+24/05/2023 10:29:49,002 [11] INFO  Available memory: 18553 Used memory: 416 Elapsed Time: 00:00:41.7772082 [Unspecified] - PopulateConfigQueryParams initiated.
+Empty parameter string
+  
+24/05/2023 10:29:49,007 [11] INFO  Available memory: 18553 Used memory: 416 Elapsed Time: 00:00:41.7825691 [Queries] - Currently running 0 queries:
+  
+24/05/2023 10:29:49,007 [11] INFO  Available memory: 18553 Used memory: 416 Elapsed Time: 00:00:41.7826157 [Queries] - Queries advancement: 0/0  
+24/05/2023 10:29:49,007 [28] INFO  Available memory: 18553 Used memory: 416 Elapsed Time: 00:00:41.7829562 [Queries] - Currently running 0 queries:
+  
+24/05/2023 10:29:49,008 [28] INFO  Available memory: 18553 Used memory: 416 Elapsed Time: 00:00:41.7829943 [Queries] - Queries advancement: 0/12  
+24/05/2023 10:29:49,033 [QueryThread JavaScript.Cx.General.CustomFlows_Angular_ViewController] INFO  Available memory: 18553 Used memory: 416 Elapsed Time: 00:00:41.8085043 [Queries] - Query-compilation: creating query code  
+24/05/2023 10:29:50,616 [QueryThread JavaScript.Cx.General.CustomFlows_Angular_ViewController] INFO  Available memory: 18466 Used memory: 503 Elapsed Time: 00:00:43.3910684 [Queries] - Query-compilation: creating tree and adding references for queries  
+24/05/2023 10:29:53,724 [QueryThread JavaScript.Cx.General.CustomFlows_Angular_ViewController] INFO  Available memory: 18438 Used memory: 550 Elapsed Time: 00:00:46.4988011 [Queries] - Query-compilation: compilation status: SUCCESS  
+24/05/2023 10:29:54,176 [QueryThread JavaScript.Cx.General.CustomFlows_Angular_ViewController] INFO  Available memory: 18438 Used memory: 550 Elapsed Time: 00:00:46.9514951 [Queries] - Query-compilation: Finished loading assembly  
+24/05/2023 10:29:54,177 [QueryThread JavaScript.Cx.General.CustomFlows_Angular_ViewController] INFO  Available memory: 18438 Used memory: 550 Elapsed Time: 00:00:46.9518559 [Queries] - Query-compilation: creating instance  
+24/05/2023 10:29:54,332 [QueryThread JavaScript.Cx.General.CustomFlows_Angular_ViewController] INFO  Available memory: 18438 Used memory: 550 Elapsed Time: 00:00:47.1074038 [Queries] - Created instance of Checkmarx.Query.DynamicQuery_Runner class  
+24/05/2023 10:29:54,361 [11] INFO  Available memory: 18438 Used memory: 550 Elapsed Time: 00:00:47.1366566 [Queries] - Currently running 4 queries:
+{Language: JavaScript, PackageTypeName: Cx, GroupName: General, QueryName: CustomFlows_SAPUI_Link_Controller_Properties }
+{Language: JavaScript, PackageTypeName: Cx, GroupName: General, QueryName: CustomFlows_SAPUI_Link_Controller_Properties_Views }
+{Language: JavaScript, PackageTypeName: Cx, GroupName: General, QueryName: CustomFlows_MapIndexers }
+{Language: JavaScript, PackageTypeName: Cx, GroupName: General, QueryName: CustomFlows_Map_Inputs_To_Sanitize_Hapi }  
+24/05/2023 10:29:54,362 [11] INFO  Available memory: 18438 Used memory: 550 Elapsed Time: 00:00:47.1374295 [Queries] - Queries advancement: 8/12  
+24/05/2023 10:29:54,383 [11] INFO  Available memory: 18438 Used memory: 550 Elapsed Time: 00:00:47.1582513 [Queries] - start waiting for confidence level collection tasks  
+24/05/2023 10:29:54,383 [11] INFO  Available memory: 18438 Used memory: 550 Elapsed Time: 00:00:47.1583273 [Queries] - finish waiting for confidence level collection tasks  
+24/05/2023 10:29:54,384 [11] INFO  Available memory: 18438 Used memory: 550 Elapsed Time: 00:00:47.1588249 [Queries] - Currently running 0 queries:
+  
+24/05/2023 10:29:54,384 [11] INFO  Available memory: 18438 Used memory: 550 Elapsed Time: 00:00:47.1588643 [Queries] - Queries advancement: 12/12  
+24/05/2023 10:29:54,387 [11] INFO  Available memory: 18438 Used memory: 550 Elapsed Time: 00:00:47.1619223 [Unspecified] - ProjectLoadingThread -- Finish  
+24/05/2023 10:29:55,133 [MainThread_CxAudit] INFO  Available memory: 18367 Used memory: 554 Elapsed Time: 00:00:47.9087363 [Unspecified] - ProjectLoading_Shown -- Finish  
+24/05/2023 10:29:55,138 [MainThread_CxAudit] INFO  Available memory: 18367 Used memory: 554 Elapsed Time: 00:00:47.9132312 [Unspecified] - Finish Loading Project  
+24/05/2023 10:29:56,867 [63] INFO  Available memory: 17899 Used memory: 1015 Elapsed Time: 00:00:49.6419044 [Infrastructure] - Start Calculate white list  
+24/05/2023 10:29:56,875 [63] INFO  Available memory: 17899 Used memory: 1015 Elapsed Time: 00:00:49.6503481 [Infrastructure] - End   Calculate white list  
+24/05/2023 10:29:56,885 [63] INFO  Available memory: 17899 Used memory: 1015 Elapsed Time: 00:00:49.6597318 [Infrastructure] - Start CheckSource  
+24/05/2023 10:29:57,856 [63] INFO  Available memory: 17899 Used memory: 1015 Elapsed Time: 00:00:50.6302920 [Infrastructure] - Sequrity check took 00:00:00.6669211  
+24/05/2023 10:29:57,856 [63] INFO  Available memory: 17899 Used memory: 1015 Elapsed Time: 00:00:50.6303569 [Infrastructure] - End   CheckSource  
+24/05/2023 10:29:57,860 [63] INFO  Available memory: 17899 Used memory: 1015 Elapsed Time: 00:00:50.6350537 [Queries] - .ctor: CxThreadPool was prepared to run 4 threads.  
+24/05/2023 10:29:57,865 [63] INFO  Available memory: 17872 Used memory: 1015 Elapsed Time: 00:00:50.6395876 [Unspecified] - PopulateConfigQueryParams initiated.
+Empty parameter string
+  
+24/05/2023 10:29:57,871 [63] INFO  Available memory: 17872 Used memory: 1043 Elapsed Time: 00:00:50.6463075 [Queries] - Currently running 0 queries:
+  
+24/05/2023 10:29:57,871 [63] INFO  Available memory: 17872 Used memory: 1043 Elapsed Time: 00:00:50.6463724 [Queries] - Queries advancement: 0/0  
+24/05/2023 10:29:57,872 [19] INFO  Available memory: 17872 Used memory: 1043 Elapsed Time: 00:00:50.6464356 [Queries] - Currently running 0 queries:
+  
+24/05/2023 10:29:57,872 [19] INFO  Available memory: 17872 Used memory: 1043 Elapsed Time: 00:00:50.6464698 [Queries] - Queries advancement: 0/585  
+24/05/2023 10:29:57,881 [QueryThread JavaScript.Cx.General.Find_Methods] INFO  Available memory: 17872 Used memory: 1043 Elapsed Time: 00:00:50.6553279 [Queries] - Query-compilation: creating query code  
+24/05/2023 10:29:59,566 [QueryThread JavaScript.Cx.General.Find_Methods] INFO  Available memory: 17793 Used memory: 1111 Elapsed Time: 00:00:52.3411050 [Queries] - Query-compilation: creating tree and adding references for queries  
+24/05/2023 10:30:00,513 [QueryThread JavaScript.Cx.General.Find_Methods] INFO  Available memory: 17793 Used memory: 1111 Elapsed Time: 00:00:53.2876342 [Queries] - Query-compilation: compilation status: SUCCESS  
+24/05/2023 10:30:00,667 [QueryThread JavaScript.Cx.General.Find_Methods] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:53.4419911 [Queries] - Query-compilation: Finished loading assembly  
+24/05/2023 10:30:00,667 [QueryThread JavaScript.Cx.General.Find_Methods] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:53.4420665 [Queries] - Query-compilation: creating instance  
+24/05/2023 10:30:00,820 [QueryThread JavaScript.Cx.General.Find_Methods] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:53.5948276 [Queries] - Created instance of Checkmarx.Query.DynamicQuery_Runner class  
+24/05/2023 10:30:00,958 [QueryThread JavaScript.Cx.General.Find_Inputs] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:53.7330511 [Infrastructure] - GetQueryParam: Could not retrieve value for key isDesktopApp: GetQueryParam,8123  
+24/05/2023 10:30:00,990 [QueryThread JavaScript.Cx.General.NodeJS_Find_Interactive_Outputs] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:53.7653745 [Queries] - General Query {Language: JavaScript, PackageTypeName: Cx, GroupName: General, QueryName: NodeJS_Find_Interactive_Inputs }: Start: 24/05/2023 10:30:00,984,  End: 24/05/2023 10:30:00,987,  Block time: 00:00:00.0039994,  Blocked queries: 1  
+24/05/2023 10:30:01,207 [63] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:53.9812654 [Queries] - start waiting for confidence level collection tasks  
+24/05/2023 10:30:01,207 [63] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:53.9813477 [Queries] - finish waiting for confidence level collection tasks  
+24/05/2023 10:30:01,207 [63] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:53.9814174 [Queries] - Currently running 0 queries:
+  
+24/05/2023 10:30:01,207 [63] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:53.9814359 [Queries] - Queries advancement: 585/585  
+24/05/2023 10:30:01,503 [63] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:54.2782113 [Queries] - *** Results Summary ***
+Query - JavaScript.Cx.JavaScript_Angular.Angular_Client_DOM_XSS                                              Severity: High         success  Results: 0      Duration = 00:00:00.002   CWE 79      CxDescriprion 1941    SHA1: ed5e421d
+Query - JavaScript.Cx.JavaScript_Angular.Angular_Client_Stored_DOM_XSS                                       Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 79      CxDescriprion 1955    SHA1: 30a8d767
+Query - JavaScript.Cx.JavaScript_Angular.Angular_Deprecated_API                                              Severity: Low          success  Results: 0      Duration = 00:00:00.003   CWE 477     CxDescriprion 1260    SHA1: ed31998c
+Query - JavaScript.Cx.JavaScript_Angular.Angular_Improper_Type_Pipe_Usage                                    Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 228     CxDescriprion 1253    SHA1: 52aafe1a
+Query - JavaScript.Cx.JavaScript_Angular.Angular_Usage_of_Unsafe_DOM_Sanitizer                               Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 116     CxDescriprion 1252    SHA1: a483c237
+Query - JavaScript.Cx.JavaScript_AWS_Lambda.DynamoDB_NoSQL_Injection                                         Severity: High         success  Results: 0      Duration = 00:00:00.003   CWE 74      CxDescriprion 2869    SHA1: 10f2b462
+Query - JavaScript.Cx.JavaScript_AWS_Lambda.Permission_Manipulation_in_S3                                    Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 285     CxDescriprion 2863    SHA1: aeccb360
+Query - JavaScript.Cx.JavaScript_AWS_Lambda.Race_Condition_Concurrent_Instances                              Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 366     CxDescriprion 2860    SHA1: ddcd7cb4
+Query - JavaScript.Cx.JavaScript_AWS_Lambda.Unrestricted_Read_S3                                             Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 639     CxDescriprion 2864    SHA1: 1ed67bd8
+Query - JavaScript.Cx.JavaScript_AWS_Lambda.Unrestricted_Write_S3                                            Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 639     CxDescriprion 2865    SHA1: adc04d22
+Query - JavaScript.Cx.JavaScript_AWS_Lambda.User_Based_SDK_Configurations                                    Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 15      CxDescriprion 2861    SHA1: 837bffd1
+Query - JavaScript.Cx.JavaScript_Best_Coding_Practice.Avoid_the_Use_of_FinalizationRegistry                  Severity: Information  success  Results: 0      Duration = 00:00:00.000   CWE 000     CxDescriprion 2909    SHA1: 130b8f81
+Query - JavaScript.Cx.JavaScript_Best_Coding_Practice.Avoid_the_Use_of_WeakRef                               Severity: Information  success  Results: 0      Duration = 00:00:00.000   CWE 000     CxDescriprion 2908    SHA1: 0e36c7b5
+Query - JavaScript.Cx.JavaScript_Best_Coding_Practice.Hardcoded_Absolute_Path                                Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 426     CxDescriprion 311     SHA1: f525934c
+Query - JavaScript.Cx.JavaScript_Best_Coding_Practice.React_Multiple_Classes_With_Same_Name                  Severity: Information  success  Results: 0      Duration = 00:00:00.002   CWE 694     CxDescriprion 000     SHA1: 5a74e146
+Query - JavaScript.Cx.JavaScript_Best_Coding_Practice.Use_Of_Multiple_Mixins                                 Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 710     CxDescriprion 000     SHA1: 4b2153c5
+Query - JavaScript.Cx.JavaScript_Cordova.Cordova_Code_Injection                                              Severity: Medium       success  Results: 0      Duration = 00:00:00.000   CWE 94      CxDescriprion 1106    SHA1: 25ae310b
+Query - JavaScript.Cx.JavaScript_Cordova.Cordova_File_Disclosure                                             Severity: Medium       success  Results: 0      Duration = 00:00:00.000   CWE 538     CxDescriprion 1929    SHA1: ae19b818
+Query - JavaScript.Cx.JavaScript_Cordova.Cordova_File_Manipulation                                           Severity: Medium       success  Results: 0      Duration = 00:00:00.000   CWE 552     CxDescriprion 1927    SHA1: 4fc84166
+Query - JavaScript.Cx.JavaScript_Cordova.Cordova_Insufficient_Domain_Whitelist                               Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 942     CxDescriprion 1306    SHA1: 4a102958
+Query - JavaScript.Cx.JavaScript_Cordova.Cordova_Missing_Content_Security_Policy                             Severity: Low          success  Results: 0      Duration = 00:00:00.003   CWE 346     CxDescriprion 1329    SHA1: cff2fe89
+Query - JavaScript.Cx.JavaScript_Cordova.Cordova_Open_Redirect                                               Severity: Medium       success  Results: 0      Duration = 00:00:00.000   CWE 601     CxDescriprion 1928    SHA1: 1f289475
+Query - JavaScript.Cx.JavaScript_Cordova.Cordova_Permissive_Content_Security_Policy                          Severity: Low          success  Results: 0      Duration = 00:00:00.003   CWE 346     CxDescriprion 1328    SHA1: f33b03d2
+Query - JavaScript.Cx.JavaScript_Cordova.Cordova_Privacy_Violation                                           Severity: Medium       success  Results: 0      Duration = 00:00:00.006   CWE 359     CxDescriprion 1687    SHA1: 703c8e2d
+Query - JavaScript.Cx.JavaScript_High_Risk.Client_DOM_Code_Injection                                         Severity: High         success  Results: 0      Duration = 00:00:00.003   CWE 94      CxDescriprion 1094    SHA1: 773d4cac
+Query - JavaScript.Cx.JavaScript_High_Risk.Client_DOM_Stored_Code_Injection                                  Severity: High         success  Results: 0      Duration = 00:00:00.002   CWE 94      CxDescriprion 1093    SHA1: f241cbb3
+Query - JavaScript.Cx.JavaScript_High_Risk.Client_DOM_Stored_XSS                                             Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 79      CxDescriprion 1625    SHA1: 6bc99876
+Query - JavaScript.Cx.JavaScript_High_Risk.Client_DOM_XSS                                                    Severity: High         success  Results: 0      Duration = 00:00:00.006   CWE 79      CxDescriprion 1633    SHA1: 06f90789
+Query - JavaScript.Cx.JavaScript_High_Risk.Client_Dynamic_File_Inclusion                                     Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 829     CxDescriprion 2478    SHA1: 0cc87261
+Query - JavaScript.Cx.JavaScript_High_Risk.Client_Resource_Injection                                         Severity: High         success  Results: 0      Duration = 00:00:00.002   CWE 99      CxDescriprion 1234    SHA1: 29401224
+Query - JavaScript.Cx.JavaScript_High_Risk.Client_Second_Order_Sql_Injection                                 Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 89      CxDescriprion 1798    SHA1: c788cb64
+Query - JavaScript.Cx.JavaScript_High_Risk.Client_SQL_Injection                                              Severity: High         success  Results: 0      Duration = 00:00:00.000   CWE 89      CxDescriprion 1798    SHA1: 38cbaca1
+Query - JavaScript.Cx.JavaScript_High_Risk.Deserialization_of_Untrusted_Data                                 Severity: High         success  Results: 0      Duration = 00:00:00.006   CWE 502     CxDescriprion 1983    SHA1: a2991820
+Query - JavaScript.Cx.JavaScript_High_Risk.Prototype_Pollution                                               Severity: High         success  Results: 0      Duration = 00:00:00.003   CWE 1321    CxDescriprion 2402    SHA1: 124e86f2
+Query - JavaScript.Cx.JavaScript_Jelly.Jelly_Injection                                                       Severity: High         success  Results: 0      Duration = 00:00:00.002   CWE 94      CxDescriprion 1947    SHA1: 63ef1ac4
+Query - JavaScript.Cx.JavaScript_Jelly.Jelly_XSS                                                             Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 79      CxDescriprion 1948    SHA1: 0ef11532
+Query - JavaScript.Cx.Javascript_Kony.Kony_Code_Injection                                                    Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 94      CxDescriprion 1107    SHA1: bac8c06e
+Query - JavaScript.Cx.Javascript_Kony.Kony_Deprecated_Functions                                              Severity: Information  success  Results: 0      Duration = 00:00:00.002   CWE 477     CxDescriprion 126     SHA1: b095053f
+Query - JavaScript.Cx.Javascript_Kony.Kony_Hardcoded_EncryptionKey                                           Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 321     CxDescriprion 1943    SHA1: 1106fda8
+Query - JavaScript.Cx.Javascript_Kony.Kony_Information_Leakage                                               Severity: High         success  Results: 0      Duration = 00:00:00.000   CWE 319     CxDescriprion 1953    SHA1: face7bfa
+Query - JavaScript.Cx.Javascript_Kony.Kony_Path_Injection                                                    Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 73      CxDescriprion 1956    SHA1: e1760683
+Query - JavaScript.Cx.Javascript_Kony.Kony_Reflected_XSS                                                     Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 79      CxDescriprion 1633    SHA1: c43ec122
+Query - JavaScript.Cx.Javascript_Kony.Kony_Second_Order_SQL_Injection                                        Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 89      CxDescriprion 1960    SHA1: 5d301965
+Query - JavaScript.Cx.Javascript_Kony.Kony_SQL_Injection                                                     Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 89      CxDescriprion 1959    SHA1: a85da0b3
+Query - JavaScript.Cx.Javascript_Kony.Kony_Stored_Code_Injection                                             Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 94      CxDescriprion 1107    SHA1: 78945b2d
+Query - JavaScript.Cx.Javascript_Kony.Kony_Stored_XSS                                                        Severity: High         success  Results: 0      Duration = 00:00:00   CWE 79      CxDescriprion 1625    SHA1: c43ec122
+Query - JavaScript.Cx.Javascript_Kony.Kony_Unsecure_Browser_Configuration                                    Severity: High         success  Results: 0      Duration = 00:00:00.000   CWE 15      CxDescriprion 1665    SHA1: 566b3ca6
+Query - JavaScript.Cx.Javascript_Kony.Kony_Unsecure_iOSBrowser_Configuration                                 Severity: High         success  Results: 0      Duration = 00:00:00.000   CWE 15      CxDescriprion 1962    SHA1: 667fa836
+Query - JavaScript.Cx.Javascript_Kony.Kony_URL_Injection                                                     Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 601     CxDescriprion 1954    SHA1: 99816542
+Query - JavaScript.Cx.Javascript_Kony.Kony_Use_WeakEncryption                                                Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 326     CxDescriprion 1940    SHA1: c766d98f
+Query - JavaScript.Cx.Javascript_Kony.Kony_Use_WeakHash                                                      Severity: Medium       success  Results: 0      Duration = 00:00:00.000   CWE 328     CxDescriprion 1690    SHA1: 1b9a09af
+Query - JavaScript.Cx.Javascript_Lightning.Lightning_Aura_Attribute_With_Object_Type                         Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 000     CxDescriprion 2283    SHA1: 4418c3b6
+Query - JavaScript.Cx.Javascript_Lightning.Lightning_Component_Bad_Naming                                    Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 000     CxDescriprion 2330    SHA1: 5de3a328
+Query - JavaScript.Cx.Javascript_Lightning.Lightning_Data_Retrieval_Without_Wire_Decorator                   Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 000     CxDescriprion 2328    SHA1: 0abb3add
+Query - JavaScript.Cx.Javascript_Lightning.Lightning_DOM_XSS                                                 Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 79      CxDescriprion 1604    SHA1: 07dfff81
+Query - JavaScript.Cx.Javascript_Lightning.Lightning_Dynamic_Href_In_Anchor_Tag                              Severity: Information  success  Results: 0      Duration = 00:00:00.000   CWE 000     CxDescriprion 2282    SHA1: 19421c62
+Query - JavaScript.Cx.Javascript_Lightning.Lightning_Stored_XSS                                              Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 79      CxDescriprion 1603    SHA1: 72eefe73
+Query - JavaScript.Cx.Javascript_Lightning.Lightning_Use_of_Aura_Component                                   Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 000     CxDescriprion 2327    SHA1: 4a7196fe
+Query - JavaScript.Cx.Javascript_Lightning.Lightning_Use_of_LWC_Event_Bubbling                               Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 000     CxDescriprion 2329    SHA1: 45131085
+Query - JavaScript.Cx.Javascript_Lightning.Lightning_Use_of_Same_Controller_Method_In_Different_Components   Severity: Information  success  Results: 0      Duration = 00:00:00.003   CWE 000     CxDescriprion 2331    SHA1: f6dfa2bb
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Cookies_Inspection                                    Severity: Low          success  Results: 0      Duration = 00:00:00.000   CWE 315     CxDescriprion 1755    SHA1: 485ba2d1
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Cross_Session_Contamination                           Severity: Low          success  Results: 0      Duration = 00:00:00.000   CWE 488     CxDescriprion 1756    SHA1: 3d72beb7
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_DOM_Open_Redirect                                     Severity: Low          success  Results: 0      Duration = 00:00:00.003   CWE 601     CxDescriprion 1810    SHA1: 110699c3
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Empty_Password                                        Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 259     CxDescriprion 1813    SHA1: 3995f9ed
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Hardcoded_Domain                                      Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 829     CxDescriprion 414     SHA1: 5c5588d7
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_HTML5_Easy_To_Guess_Database_Name                     Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 330     CxDescriprion 000     SHA1: 90bc7454
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_HTML5_Heuristic_Session_Insecure_Storage              Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 922     CxDescriprion 133     SHA1: 2dc195d9
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Insecure_Randomness                                   Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 330     CxDescriprion 1957    SHA1: 2ce9019a
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Insufficient_Key_Size                                 Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 310     CxDescriprion 000     SHA1: 9b539d90
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_JQuery_Deprecated_Symbols                             Severity: Low          success  Results: 0      Duration = 00:00:00.003   CWE 477     CxDescriprion 1909    SHA1: bc13bf48
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Located_JQuery_Outdated_Lib_File                      Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 477     CxDescriprion 126     SHA1: bd80ce85
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Negative_Content_Length                               Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 398     CxDescriprion 1760    SHA1: cee33ddf
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Null_Password                                         Severity: Low          success  Results: 0      Duration = 00:00:00.004   CWE 259     CxDescriprion 1813    SHA1: c7dce44e
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Overly_Permissive_Message_Posting                     Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 942     CxDescriprion 143     SHA1: deab8518
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Password_In_Comment                                   Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 615     CxDescriprion 1961    SHA1: 4f03af6c
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Password_Weak_Encryption                              Severity: Low          success  Results: 0      Duration = 00:00:00.000   CWE 261     CxDescriprion 1764    SHA1: ae4d0ccc
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Potential_Ad_Hoc_Ajax                                 Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 693     CxDescriprion 405     SHA1: 6058e966
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Potential_DOM_Open_Redirect                           Severity: Low          success  Results: 0      Duration = 00:00:00.003   CWE 601     CxDescriprion 1810    SHA1: e7284bce
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Potential_ReDoS_In_Match                              Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 400     CxDescriprion 1811    SHA1: e0cee4f5
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Potential_ReDoS_In_Replace                            Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 400     CxDescriprion 1811    SHA1: a0619894
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Regex_Injection                                       Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 400     CxDescriprion 1785    SHA1: 292e176d
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Remote_File_Inclusion                                 Severity: Low          success  Results: 0      Duration = 00:00:00.003   CWE 829     CxDescriprion 1046    SHA1: 6a1898e3
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Server_Empty_Password                                 Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 259     CxDescriprion 1813    SHA1: e1c2dc18
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Use_Of_Deprecated_SQL_Database                        Severity: Low          success  Results: 0      Duration = 00:00:00.000   CWE 937     CxDescriprion 1809    SHA1: 6dc263ce
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Use_Of_Iframe_Without_Sandbox                         Severity: Low          success  Results: 0      Duration = 00:00:00.003   CWE 829     CxDescriprion 1974    SHA1: 1237f83c
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Weak_Cryptographic_Hash                               Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 310     CxDescriprion 1939    SHA1: 692b468c
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Weak_Encryption                                       Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 327     CxDescriprion 1786    SHA1: 0e34d494
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Client_Weak_Password_Authentication                          Severity: Low          success  Results: 0      Duration = 00:00:00.000   CWE 798     CxDescriprion 1764    SHA1: c36f527a
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Information_Exposure_Through_Query_Strings                   Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 522     CxDescriprion 1783    SHA1: b1bb6fd9
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Insufficiently_Protected_Credentials                         Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 522     CxDescriprion 17      SHA1: b1bb6fd9
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Not_Using_a_Random_IV                                        Severity: Low          success  Results: 0      Duration = 00:00:00.000   CWE 329     CxDescriprion 2768    SHA1: ae7aa31b
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Overly_Permissive_Cross_Origin_Resource_Sharing_Policy       Severity: Low          success  Results: 0      Duration = 00:00:00.006   CWE 346     CxDescriprion 1138    SHA1: d422b476
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Potential_Clickjacking_on_Legacy_Browsers                    Severity: Low          success  Results: 0      Duration = 00:00:00.005   CWE 693     CxDescriprion 151     SHA1: 1c67e937
+Query - JavaScript.Cx.JavaScript_Low_Visibility.React_Deprecated                                             Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 477     CxDescriprion 1908    SHA1: 29b7adca
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Unsafe_Use_Of_Target_blank                                   Severity: Low          success  Results: 0      Duration = 00:00:00.006   CWE 1022    CxDescriprion 307     SHA1: 6178b2e2
+Query - JavaScript.Cx.JavaScript_Low_Visibility.Use_Of_Controlled_Input_On_Sensitive_Field                   Severity: Low          success  Results: 0      Duration = 00:00:00.003   CWE 000     CxDescriprion 1362    SHA1: b28d5319
+Query - JavaScript.Cx.JavaScript_Medium_Threat.AngularJS_SCE_Disabled                                        Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 116     CxDescriprion 1978    SHA1: b03aa22d
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_Cross_Frame_Scripting_Attack                           Severity: Medium       success  Results: 0      Duration = 00:00:00.000   CWE 79      CxDescriprion 151     SHA1: 913c129a
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_CSS_Injection                                          Severity: Medium       success  Results: 0      Duration = 00:00:00.000   CWE 83      CxDescriprion 2468    SHA1: 4488cfcc
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_DB_Parameter_Tampering                                 Severity: Medium       success  Results: 0      Duration = 00:00:00   CWE 284     CxDescriprion 132     SHA1: ae4d0ccc
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_DOM_Cookie_Poisoning                                   Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 472     CxDescriprion 127     SHA1: 560008a0
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_DOM_CSRF                                               Severity: Medium       success  Results: 0      Duration = 00:00:00   CWE 352     CxDescriprion 5       SHA1: ae4d0ccc
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_DoS_By_Sleep                                           Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 730     CxDescriprion 1820    SHA1: 0dad6e97
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_Header_Manipulation                                    Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 113     CxDescriprion 210     SHA1: ee7ac225
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_HTML5_Information_Exposure                             Severity: Medium       success  Results: 0      Duration = 00:00:00.000   CWE 200     CxDescriprion 1814    SHA1: a1ca4b3d
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_HTML5_Insecure_Storage                                 Severity: Medium       success  Results: 0      Duration = 00:00:00.003   CWE 312     CxDescriprion 133     SHA1: 95fc3fe3
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_HTML5_Store_Sensitive_data_In_Web_Storage              Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 312     CxDescriprion 133     SHA1: 21675bb6
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_Path_Manipulation                                      Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 73      CxDescriprion 22      SHA1: ae4d0ccc
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_Potential_Code_Injection                               Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 94      CxDescriprion 1105    SHA1: 6de46fbc
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_Potential_XSS                                          Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 79      CxDescriprion 1625    SHA1: af7a43d8
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_Privacy_Violation                                      Severity: Medium       success  Results: 0      Duration = 00:00:00.005   CWE 359     CxDescriprion 1687    SHA1: 52219015
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_ReDoS_From_Regex_Injection                             Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 400     CxDescriprion 1785    SHA1: 9cbd76eb
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_ReDoS_In_Match                                         Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 400     CxDescriprion 1811    SHA1: 53928430
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_ReDos_In_RegExp                                        Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 400     CxDescriprion 1811    SHA1: e36c66cd
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_ReDoS_In_Replace                                       Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 400     CxDescriprion 1811    SHA1: d11976ef
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_Sandbox_Allows_Scripts_With_Same_Origin                Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 829     CxDescriprion 406     SHA1: 152798e0
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_Untrusted_Activex                                      Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 618     CxDescriprion 407     SHA1: fb81ff20
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_Use_Of_JQuery_Deprecated_Version                       Severity: Medium       success  Results: 0      Duration = 00:00:00.000   CWE 477     CxDescriprion 126     SHA1: ae4d0ccc
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Client_XPATH_Injection                                        Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 643     CxDescriprion 1248    SHA1: 24c2d409
+Query - JavaScript.Cx.JavaScript_Medium_Threat.CSV_Injection                                                 Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 74      CxDescriprion 1995    SHA1: b2688bda
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Frameable_Login_Page                                          Severity: Medium       success  Results: 0      Duration = 00:00:00.003   CWE 829     CxDescriprion 1831    SHA1: e0f1161e
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Insecure_Value_of_the_SameSite_Cookie_Attribute_in_Code       Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 1275    CxDescriprion 3046    SHA1: 2d412c29
+Query - JavaScript.Cx.JavaScript_Medium_Threat.JWT_Sensitive_Information_Exposure                            Severity: Medium       success  Results: 0      Duration = 00:00:00.009   CWE 201     CxDescriprion 2303    SHA1: 88bfffd6
+Query - JavaScript.Cx.JavaScript_Medium_Threat.JWT_Use_Of_Hardcoded_Secret                                   Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 798     CxDescriprion 2346    SHA1: f0010787
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Missing_HSTS_Header                                           Severity: Medium       success  Results: 0      Duration = 00:00:00.010   CWE 346     CxDescriprion 1333    SHA1: 9d3d6bd1
+Query - JavaScript.Cx.JavaScript_Medium_Threat.Unchecked_Input_For_Loop_Condition                            Severity: Medium       success  Results: 0      Duration = 00:00:00.003   CWE 606     CxDescriprion 2397    SHA1: 0b754b27
+Query - JavaScript.Cx.JavaScript_Medium_Threat.XML_External_Entities_XXE                                     Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 611     CxDescriprion 1982    SHA1: e0837989
+Query - JavaScript.Cx.JavaScript_ReactNative.Clipboard_Information_Leakage                                   Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 200     CxDescriprion 2041    SHA1: 8953d55f
+Query - JavaScript.Cx.JavaScript_ReactNative.Insecure_Text_Entry                                             Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 549     CxDescriprion 2040    SHA1: 98becc7c
+Query - JavaScript.Cx.JavaScript_ReactNative.Insufficient_Transport_Layer_Security                           Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 319     CxDescriprion 2033    SHA1: b6185190
+Query - JavaScript.Cx.JavaScript_ReactNative.Missing_Root_Or_Jailbreak_Check                                 Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 693     CxDescriprion 2039    SHA1: 10f43ca5
+Query - JavaScript.Cx.JavaScript_ReactNative.Unencrypted_Sensitive_Data_Storage                              Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 922     CxDescriprion 2034    SHA1: 256b9b6d
+Query - JavaScript.Cx.JavaScript_SAPUI5.Client_Manual_CSRF_Token_Handling                                    Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 352     CxDescriprion 1944    SHA1: 0dff1b02
+Query - JavaScript.Cx.JavaScript_SAPUI5.Client_Manual_XHR_Handling                                           Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 474     CxDescriprion 000     SHA1: cf7477dd
+Query - JavaScript.Cx.JavaScript_SAPUI5.SAPUI5_Custom_OData_Model                                            Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 474     CxDescriprion 000     SHA1: b7e61db3
+Query - JavaScript.Cx.JavaScript_SAPUI5.SAPUI5_Deprecated_Symbols                                            Severity: Low          success  Results: 0      Duration = 00:00:00.016   CWE 477     CxDescriprion 1949    SHA1: 9d610953
+Query - JavaScript.Cx.JavaScript_SAPUI5.SAPUI5_Hardcoded_UserId_In_Comments                                  Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 200     CxDescriprion 1988    SHA1: 54e4d76b
+Query - JavaScript.Cx.JavaScript_SAPUI5.SAPUI5_OData_Call_Without_Batch_Mode                                 Severity: Information  success  Results: 0      Duration = 00:00:00.002   CWE 474     CxDescriprion 000     SHA1: 2db87771
+Query - JavaScript.Cx.JavaScript_SAPUI5.SAPUI5_Potential_Malicious_File_Upload                               Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 434     CxDescriprion 1967    SHA1: 2e31e19f
+Query - JavaScript.Cx.JavaScript_SAPUI5.SAPUI5_Use_Of_Hardcoded_URL                                          Severity: Medium       success  Results: 0      Duration = 00:00:00.000   CWE 200     CxDescriprion 1987    SHA1: 7dfa1cb2
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Absolute_Path_Traversal                         Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 36      CxDescriprion 1352    SHA1: 61496cc9
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Cleartext_Storage_Of_Sensitive_Information      Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 312     CxDescriprion 1680    SHA1: 30df4793
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Code_Injection                                  Severity: High         success  Results: 0      Duration = 00:00:00.002   CWE 94      CxDescriprion 1087    SHA1: 5fbcffe7
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Command_Injection                               Severity: High         success  Results: 0      Duration = 00:00:00.002   CWE 77      CxDescriprion 2178    SHA1: 96455bb3
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Comparing_instead_of_Assigning                  Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 482     CxDescriprion 000     SHA1: d16fb955
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Cookie_Poisoning                                Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 472     CxDescriprion 1829    SHA1: a8cbcb8f
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.CSRF                                            Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 352     CxDescriprion 1666    SHA1: a2de5b53
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Divide_By_Zero                                  Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 369     CxDescriprion 343     SHA1: 99b7a54b
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Dynamic_File_Inclusion                          Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 829     CxDescriprion 1038    SHA1: da66a314
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Excessive_Data_Exposure                         Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 201     CxDescriprion 2367    SHA1: 05489faa
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Expression_is_Always_False                      Severity: Information  success  Results: 0      Duration = 00:00:00.000   CWE 570     CxDescriprion 000     SHA1: 369b5bd5
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Expression_is_Always_True                       Severity: Information  success  Results: 0      Duration = 00:00:00.000   CWE 571     CxDescriprion 000     SHA1: 07d17bca
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Hardcoded_password_in_Connection_String         Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 547     CxDescriprion 1014    SHA1: 11e759e4
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.HTTP_Response_Splitting                         Severity: Medium       success  Results: 0      Duration = 00:00:00.000   CWE 113     CxDescriprion 1669    SHA1: 8f161459
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Information_Exposure_Through_an_Error_Message   Severity: Low          success  Results: 0      Duration = 00:00:00.004   CWE 209     CxDescriprion 2911    SHA1: a369233e
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Information_Exposure_Through_Directory_Listing  Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 548     CxDescriprion 1770    SHA1: 05a9df65
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Information_Exposure_Through_Log_Files          Severity: Low          success  Results: 0      Duration = 00:00:00   CWE 532     CxDescriprion 1497    SHA1: 7323f1eb
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Insecure_Direct_Object_References               Severity: High         success  Results: 0      Duration = 00:00:00   CWE 813     CxDescriprion 000     SHA1: 804ae1a0
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Insecure_Storage_of_Sensitive_Data              Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 933     CxDescriprion 130     SHA1: 4dfa7d82
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.JSON_Hijacking                                  Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 352     CxDescriprion 1902    SHA1: 13264cee
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.JWT_Excessive_Expiration_Time                   Severity: Low          success  Results: 0      Duration = 00:00:00.006   CWE 613     CxDescriprion 2301    SHA1: 83966d5f
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.JWT_Lack_Of_Expiration_Time                     Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 613     CxDescriprion 2302    SHA1: 11214f45
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.JWT_No_Expiration_Time_Validation               Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 613     CxDescriprion 2342    SHA1: 80197328
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.JWT_No_NotBefore_Validation                     Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 304     CxDescriprion 2383    SHA1: db72523f
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.JWT_No_Signature_Verification                   Severity: High         success  Results: 0      Duration = 00:00:00.000   CWE 287     CxDescriprion 2347    SHA1: b15f5c4b
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.JWT_Use_Of_None_Algorithm                       Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 287     CxDescriprion 2344    SHA1: a7be7c1b
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Log_Forging                                     Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 117     CxDescriprion 1779    SHA1: 88302141
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Missing_CSP_Header                              Severity: Low          success  Results: 0      Duration = 00:00:00.005   CWE 346     CxDescriprion 1818    SHA1: 63431119
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Missing_Default_Case_In_Switch_Statement        Severity: Information  success  Results: 0      Duration = 00:00:00.002   CWE 478     CxDescriprion 000     SHA1: 4f1a0043
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Missing_Encryption_of_Sensitive_Data            Severity: Medium       success  Results: 0      Duration = 00:00:00.003   CWE 311     CxDescriprion 1680    SHA1: 402ada26
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.MongoDB_NoSQL_Injection                         Severity: High         success  Results: 0      Duration = 00:00:00.003   CWE 89      CxDescriprion 1986    SHA1: f6c25de8
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Null_Password                                   Severity: Low          success  Results: 0      Duration = 00:00:00.003   CWE 252     CxDescriprion 1815    SHA1: fb165648
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Omitted_Break_Statement_In_Switch               Severity: Information  success  Results: 0      Duration = 00:00:00.002   CWE 484     CxDescriprion 000     SHA1: 514f72bb
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Open_Redirect                                   Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 601     CxDescriprion 1803    SHA1: 4d6990a2
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Parameter_Tampering                             Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 472     CxDescriprion 1824    SHA1: bd80a9a8
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Password_Weak_Encryption                        Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 261     CxDescriprion 1781    SHA1: 049ab4e0
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Plaintext_Storage_of_a_Password                 Severity: Medium       success  Results: 0      Duration = 00:00:00.004   CWE 256     CxDescriprion 1838    SHA1: 0e1f346f
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Poor_Database_Access_Control                    Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 285     CxDescriprion 1780    SHA1: 5857f0e5
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Potentially_Vulnerable_To_CSRF                  Severity: Low          success  Results: 0      Duration = 00:00:00.004   CWE 352     CxDescriprion 1666    SHA1: d13eea8d
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Privacy_Violation                               Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 359     CxDescriprion 1946    SHA1: f59c9251
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.ReDoS_in_RegExp                                 Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 400     CxDescriprion 1828    SHA1: 17357357
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Reflected_XSS                                   Severity: High         success  Results: 0      Duration = 00:00:00.003   CWE 79      CxDescriprion 1631    SHA1: 1aa8ceb1
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Relative_Path_Traversal                         Severity: Medium       success  Results: 0      Duration = 00:00:00.003   CWE 23      CxDescriprion 1352    SHA1: 05f5c108
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Second_Order_SQL_Injection                      Severity: High         success  Results: 0      Duration = 00:00:00.002   CWE 89      CxDescriprion 1661    SHA1: 95f3a5b2
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Sensitive_Information_Over_HTTP                 Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 319     CxDescriprion 2947    SHA1: 2c9e5446
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Server_DoS_by_Loop                              Severity: Medium       success  Results: 0      Duration = 00:00:00.008   CWE 730     CxDescriprion 1837    SHA1: a0a16864
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Server_DoS_by_Sleep                             Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 730     CxDescriprion 1834    SHA1: 84bfe992
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.SQL_Injection                                   Severity: High         success  Results: 0      Duration = 00:00:00.002   CWE 89      CxDescriprion 1662    SHA1: 1bd8e615
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.SSL_Verification_Bypass                         Severity: Medium       success  Results: 0      Duration = 00:00:00.003   CWE 599     CxDescriprion 2273    SHA1: 08841d4a
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.SSRF                                            Severity: Medium       success  Results: 0      Duration = 00:00:00.003   CWE 918     CxDescriprion 2076    SHA1: 1579681a
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Stored_Code_Injection                           Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 94      CxDescriprion 1090    SHA1: d8b23950
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Stored_Path_Traversal                           Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 22      CxDescriprion 1557    SHA1: cec5a6c5
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Stored_XSS                                      Severity: High         success  Results: 0      Duration = 00:00:00.000   CWE 79      CxDescriprion 1628    SHA1: b72322f2
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Uncontrolled_Format_String                      Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 134     CxDescriprion 114     SHA1: 1291b2da
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Unprotected_Cookie                              Severity: Low          success  Results: 0      Duration = 00:00:00.006   CWE 614     CxDescriprion 1011    SHA1: 9501c660
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Unrestricted_File_Upload                        Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 434     CxDescriprion 2396    SHA1: 677306ab
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Unsafe_Object_Binding                           Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 915     CxDescriprion 2395    SHA1: 94eff7f6
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Use_of_Broken_or_Risky_Cryptographic_Algorithm  Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 327     CxDescriprion 1934    SHA1: 9de3bb89
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Use_of_Deprecated_or_Obsolete_Functions         Severity: Low          success  Results: 0      Duration = 00:00:00.008   CWE 477     CxDescriprion 1942    SHA1: e411c694
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Use_Of_Hardcoded_Password                       Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 259     CxDescriprion 1812    SHA1: 65600ede
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Use_Of_HTTP_Sensitive_Data_Exposure             Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 319     CxDescriprion 1926    SHA1: 3c123f58
+Query - JavaScript.Cx.JavaScript_Server_Side_Vulnerabilities.Use_of_Insufficiently_Random_Values             Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 330     CxDescriprion 1945    SHA1: b97d810d
+Query - JavaScript.Cx.JavaScript_Vue.Declaration_of_Multiple_Vue_Components_per_File                         Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 710     CxDescriprion 2073    SHA1: 85184a6c
+Query - JavaScript.Cx.JavaScript_Vue.Declaration_of_Vue_Component_Data_as_Property                           Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 710     CxDescriprion 2072    SHA1: 3e89c262
+Query - JavaScript.Cx.JavaScript_Vue.Inconsistent_Component_Top_Level_Elements_Ordering                      Severity: Information  success  Results: 0      Duration = 00:00:00.002   CWE 710     CxDescriprion 000     SHA1: 96bb838a
+Query - JavaScript.Cx.JavaScript_Vue.Inconsistent_use_of_Directive_Shorthands                                Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 710     CxDescriprion 2164    SHA1: cac667fb
+Query - JavaScript.Cx.JavaScript_Vue.Use_of_Implicit_Types_on_Vue_Component_Props                            Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 710     CxDescriprion 2071    SHA1: b870e3c7
+Query - JavaScript.Cx.JavaScript_Vue.Use_of_Single_Word_Named_Vue_Components                                 Severity: Information  success  Results: 0      Duration = 00:00:00.003   CWE 710     CxDescriprion 2070    SHA1: e39e069d
+Query - JavaScript.Cx.JavaScript_Vue.Use_of_vif_and_vfor_On_Same_Element                                     Severity: Information  success  Results: 0      Duration = 00:00:00.001   CWE 710     CxDescriprion 2155    SHA1: 7cd68447
+Query - JavaScript.Cx.JavaScript_Vue.Vue_DOM_XSS                                                             Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 79      CxDescriprion 2003    SHA1: c7f18071
+Query - JavaScript.Cx.JavaScript_XS.XS_Code_Injection                                                        Severity: High         success  Results: 0      Duration = 00:00:00.000   CWE 94      CxDescriprion 1087    SHA1: c46f554c
+Query - JavaScript.Cx.JavaScript_XS.XS_CSRF                                                                  Severity: Medium       success  Results: 0      Duration = 00:00:00.004   CWE 352     CxDescriprion 1666    SHA1: c4930404
+Query - JavaScript.Cx.JavaScript_XS.XS_Log_Injection                                                         Severity: Low          success  Results: 0      Duration = 00:00:00.000   CWE 117     CxDescriprion 1779    SHA1: 22cac401
+Query - JavaScript.Cx.JavaScript_XS.XS_Open_Redirect                                                         Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 601     CxDescriprion 1803    SHA1: 4f6797e7
+Query - JavaScript.Cx.JavaScript_XS.XS_Overly_Permissive_CORS                                                Severity: Low          success  Results: 0      Duration = 00:00:00.000   CWE 749     CxDescriprion 1138    SHA1: 65d214cb
+Query - JavaScript.Cx.JavaScript_XS.XS_Parameter_Tampering                                                   Severity: Medium       success  Results: 0      Duration = 00:00:00.003   CWE 472     CxDescriprion 1824    SHA1: d34449ba
+Query - JavaScript.Cx.JavaScript_XS.XS_Potentially_Vulnerable_To_Clickjacking                                Severity: Low          success  Results: 0      Duration = 00:00:00.002   CWE 693     CxDescriprion 151     SHA1: 0fc86296
+Query - JavaScript.Cx.JavaScript_XS.XS_Reflected_XSS                                                         Severity: High         success  Results: 0      Duration = 00:00:00.000   CWE 79      CxDescriprion 1631    SHA1: bd8d7aaf
+Query - JavaScript.Cx.JavaScript_XS.XS_Response_Splitting                                                    Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 113     CxDescriprion 1669    SHA1: bf447895
+Query - JavaScript.Cx.JavaScript_XS.XS_Second_Order_SQL_Injection                                            Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 89      CxDescriprion 1661    SHA1: 9cd9e28b
+Query - JavaScript.Cx.JavaScript_XS.XS_SQL_Injection                                                         Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 89      CxDescriprion 1662    SHA1: f0292b1a
+Query - JavaScript.Cx.JavaScript_XS.XS_Stored_Code_Injection                                                 Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 94      CxDescriprion 1090    SHA1: 201543d2
+Query - JavaScript.Cx.JavaScript_XS.XS_Stored_XSS                                                            Severity: High         success  Results: 0      Duration = 00:00:00.001   CWE 79      CxDescriprion 1628    SHA1: 3101522a
+Query - JavaScript.Cx.JavaScript_XS.XS_Unencrypted_Data_Transfer                                             Severity: Low          success  Results: 0      Duration = 00:00:00.001   CWE 319     CxDescriprion 1778    SHA1: 5615ec55
+Query - JavaScript.Cx.JavaScript_XS.XS_Use_Of_Hardcoded_URL                                                  Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 798     CxDescriprion 1667    SHA1: 20aa0201
+Query - JavaScript.Cx.JavasScript_Visualforce_Remoting.VF_Remoting_Client_Potential_Code_Injection           Severity: Medium       success  Results: 0      Duration = 00:00:00.002   CWE 94      CxDescriprion 1631    SHA1: b938b284
+Query - JavaScript.Cx.JavasScript_Visualforce_Remoting.VF_Remoting_Client_Potential_CSRF                     Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 352     CxDescriprion 5       SHA1: 314a8db5
+Query - JavaScript.Cx.JavasScript_Visualforce_Remoting.VF_Remoting_Client_Potential_XSS                      Severity: Medium       success  Results: 0      Duration = 00:00:00.001   CWE 79      CxDescriprion 1631    SHA1: 42501e46
+  
+24/05/2023 10:30:01,505 [63] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:54.2803726 [Queries] - There are 0 results found  
+24/05/2023 10:30:01,506 [63] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:54.2810223 [Queries] - Total queries accumulative duration: 00:00:00.4936187. Total dependent queries accumulation: 00:00:12.6919289. Queries part Duration: 00:00:03.3418690.  
+24/05/2023 10:30:01,506 [63] INFO  Available memory: 17774 Used memory: 1114 Elapsed Time: 00:00:54.2811084 [Queries] - Regex: (10, 00:00:00.0080000)  
+24/05/2023 10:30:01,847 [MainThread_CxAudit] INFO  Available memory: 17878 Used memory: 1014 Elapsed Time: 00:00:54.6221496 [Unspecified] - Starting build Project Tree  
+24/05/2023 10:30:25,640 [MainThread_CxAudit] INFO  Available memory: 17791 Used memory: 993 Elapsed Time: 00:01:18.4147518 [Unspecified] - Watchdog: stoped  
+24/05/2023 10:30:25,644 [MainThread_CxAudit] INFO  Available memory: 17791 Used memory: 993 Elapsed Time: 00:01:18.4192920 [Resolving] - Engine Clear method was executed  

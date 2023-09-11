@@ -1,0 +1,658 @@
+23/05/2023 17:27:00,012 [1] INFO  Available memory: 1665 Used memory: 37 Elapsed Time: 00:00:08.8159568 [Unspecified] - 
+Product version: 
+Available memory: 1683Mb
+Used memory: 28Mb
+OS: Microsoft Windows NT 10.0.14393.0
+Current Directory: C:\EngineServiceScans
+
+Processor Count: 1
+CLR Version: 6.0.5
+Executable PID: 2432
+Executable Location: C:\Program Files\Checkmarx\Checkmarx Engine Service\Engine Server\CxEngineAgent.exe
+Process ID: 2432
+C:\ 86 GB Free
+D:\ 0 GB Free
+
+64Bit platform
+PROCESSOR IDENTIFIER: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+Disk Speed: 85008 Ticks per one request
+New Disk Speed: 84 Ticks per one request
+Core Speed: 2.0GHz
+Product: Checkmarx SAST Engine
+-	Main Version: 9.5.5.1000
+-	Hotfix Version: 0
+-	Path: C:\Program Files\Checkmarx\Checkmarx Engine Service\
+Product: Checkmarx SAST Audit
+-	Main Version: 9.5.5.1000
+-	Hotfix Version: 0
+-	Path: C:\Program Files\Checkmarx\Checkmarx Audit\
+Current Product dll's version list:
+___________________________________
+Assembly name:                 File version:
+ASP.dll                        9.5.5.0-478110
+CSharp.dll                     9.5.5.0-478110
+DataCollections.dll            9.5.5.0-478110
+EngineFacade.dll               9.5.5.0-478110
+Plugin.dll                     9.5.5.0-478110
+Query.dll                      9.5.5.0-478110
+====================================================
+
+  
+23/05/2023 17:27:00,046 [1] INFO  Available memory: 1665 Used memory: 37 Elapsed Time: 00:00:08.8532831 [Unspecified] - Initializing scan input  
+23/05/2023 17:27:00,047 [1] INFO  Available memory: 1665 Used memory: 37 Elapsed Time: 00:00:08.8535055 [Unspecified] - 
+HostName: daytonas
+DomainName: check.lab
+FQDN: daytonas.check.lab
+v6  fe80::39b8:a151:61cb:5e72%14
+v6  fe80::1c92:31f3:4edb:aeb7%16
+v6  fe80::1175:33f3:a9fa:4b99%10
+v6  2607:fb90:f207:c2ec:1175:33f3:a9fa:4b99
+v4  192.168.3.4
+v4  172.18.72.17
+v4  192.168.12.90
+v6  fdd6:5c66:f5dc:0:1175:33f3:a9fa:4b99
+  
+23/05/2023 17:27:00,047 [1] INFO  Available memory: 1665 Used memory: 37 Elapsed Time: 00:00:08.8535502 [Unspecified] - Scan started  
+23/05/2023 17:27:00,603 [1] INFO  Available memory: 1665 Used memory: 37 Elapsed Time: 00:00:09.4104085 [Unspecified] - Current Engine Configuration from Application: 
+_____________________________
+ABS_BINARY_EXPRESSION_STACK_DEPTH=400
+ABS_INT_ADDITIONAL_ENTRY_POINT_ITERATIONS=0
+ABS_INT_CALL_STACK_DEPTH=3
+ABS_INT_DATA_FLOW_ENABLED=true
+ABS_INT_DATA_FLOW_TIMEOUT_SECONDS=1800
+ABS_INT_ENABLED=true
+ABS_INT_FRAMEWORK_COMPONENT_NESTING_DEPTH=3
+ABS_INT_LAMBDAS_IMPLICIT_INVOCATION=false
+ABS_INT_MAP_TIMEOUT_SECONDS=3600
+ABS_INT_MAX_IMPLEMENTING_METHODS=20
+ABS_INT_NESTED_LOOP_DEPTH=2
+ABS_INT_RESOLVE_MEMBER_ACCESSES=false
+ABS_INT_RESOLVE_MEMBER_ACCESSES_LANGUAGES=["JavaScript"]
+ABS_INT_STRING_LIMIT=500
+ABS_INT_UNIQUE_METHODS=[{ "MethodName":  "put", "NumberOfParameters": 2,  "ProjectType": 2,  "MethodActionType": 1}, { "MethodName":  "get", "NumberOfParameters": 1,  "ProjectType": 2,  "MethodActionType": 2}]
+ACTIVE_MESSAGE_QUEUE_URL=tcp://Daytonas.check.lab:49151
+ADDITIONAL_ALLOW_LIST_MEMBER_ACCESS=
+ADDITIONAL_ALLOW_LIST_METHODS=
+ADDITIONAL_ALLOW_LIST_OBJECTS=
+ADDITIONAL_ALLOW_LIST_QUALIFIED_NAME=
+ALLOW_CREATE_AUTOMATIONS=false
+ALLOW_CREATE_BULK_MINI_PROJECT=false
+ALLOW_CREATE_MINI_PROJECT=false
+ATTRIBUTE_EXPRESSIONS_TIMEOUT_FACTOR=40
+ATTRIBUTE_EXPRESSIONS_TIMEOUT_SECONDS=21600
+AUDIT_VIEW_AS_GRAPH_MAX_SINK_NODES=50
+AUDIT_VIEW_AS_GRAPH_MAX_SOURCE_NODES=50
+BEAUTIFIER_MIN_NUMBER_OF_WORDS_IN_MINIMIZED_LINE=500
+BEAUTIFIER_NUMBER_OF_ROWS_TO_CHECK=3
+BEAUTIFIER_TIMEOUT_IN_SEC=180
+BIG_PROJECT_LIMIT=100000
+BULK_SIZE=64
+CALCULATE_CONFIDENCE_LEVEL=true
+CASE_SENSITIVE_FILENAMES=false
+CLIENTS_CONFIDENCE_LEVEL_COLLECT=
+COBOL_FORMAT=FIXED
+CONFIDENCE_LEVEL_COLLECT_DATA_FILE_PATH=C:\\Temp\\ConfidenceLevel\\
+CONNECTION_RETRY_ATTEMPS_REDIS=3
+CONNECTION_TIMEOUT_REDIS=5000
+COUNT_SYMBOLS_DEFS_DEBUG=1
+CPP_IMPORT_ALL_FILES_TO_NAMESPACE=true
+CPP_IMPORT_CALCULATION_TIMEOUT=3600
+CPP_REMOVE_COMMENTS=true
+CUTOFF_MEMBERS_MAX_REFERENCES=50
+CXAUDIT_TREE_VIEW_FLAT=false
+DELETE_PREPROCESSING_TEMPORARY_FILES=true
+DENY_LIST_MEMBER_ACCESS=
+DENY_LIST_METHODS=
+DENY_LIST_OBJECTS=
+DENY_LIST_QUALIFIED_NAME=
+DEPRECATED_METHODS=CxDebug\s*\(,cxLog.WriteDebugMessage(;new\s+CxList\s*\(, All.NewCxList(;CxList\s*.\s*isFrameworkActive\s*\(,cxScan.IsFrameworkActive(;CxList\s*.\s*getScanProperty\s*\(,cxScan.GetScanProperty(;\.\s*fbn\s*\(,.FindByName(;\.\s*fbsn\s*\(,.FindByShortName(;\.\s*fbt\s*\(,.FindByType(;\.\s*fbma\s*\(,.FindByMemberAccess(;\.\s*dib\s*\(,.DataInfluencedBy(;\.\s*dio\s*\(,.DataInfluencingOn(;\.\s*cib\s*\(,.ControlInfluencedBy(;\.\s*cio\s*\(,.ControlInfluencingOn(;\.\s*ib\s*\(,.InfluencedBy(;\.\s*io\s*\(,.InfluencingOn(
+DISABLE_FG_PARALLEL=true
+DISABLE_HARDWARE_PERF_CALC=false
+DISABLE_QUERY_MRW=true
+DISABLE_WATCHDOGS=false
+ENABLE_CPP_IBM_DECODE=false
+ENABLE_CPP_VA_ARG_MACRO=false
+ENABLE_FICTITIOUS_DEFINITION=false
+ENABLE_RESULTS_CHUNKING=true
+ENABLE_SAVE_CPP_PREPROCESSED_FILES=true
+ENCODING=utf-8
+ENGINE_CLEAR_AT_END_OF_SCAN=false
+EXCLUDE_PATH=jquery;angular.js;angular-animate.js;angular-aria.js;angular-cookies.js;angular-messages.js;angular-mocks.js;angular-resource.js;angular-route.js;angular-sanitize.js;angular-touch.js;angular-scenario.js;angular-loader.js;angular.min.js;angular-resource.min.js;angular-cookies.min.js;angular-loader.min.js;angular-aria.min.js;angular-messages.min.js;angular-mocks.min.js;angular-route.min.js;angular-sanitize.min.js;angular-touch.min.js;angular-scenario.min.js;jsoneditor.js;jsoneditor.min.js
+EXCLUDED_EXTENSIONS_FOR_PROJECT_TYPE_DECISION=.config;.xaml;.tag;.xml;.h;.inc;.cgi;.properties;.txt
+EXIT_SCAN_IF_WE_CANT_KILL_THREAD=false
+EXPORT_RESULTS_IN_SATE_XML_FORMAT=false
+FG_CONCURRENCY_SIZE=64
+FG_MEMORY_MAX_USAGE_PERCENT=80
+FG_PARSE_MEMORY_WATCHDOG=false
+FG_TIMEOUT_FACTOR=100
+FG_TIMEOUT_SECONDS=-1
+FIX_SCOPES=true
+GC_COLLECT_INTERVAL=100000
+GC_GENERATIONS=0
+GC_TIME=7
+GET_BY_ANCS_RATIO=10
+GLOBAL_CANCELLATION_TIMEOUT=600
+GLOBAL_PARSING_TIMEOUT=600
+IMPORTANT_FILE_ONLY_SCAN=true
+INCLUDE_LEVEL=999
+INCLUDED_EXTENSIONS=.properties;.inc
+INCREMENTAL_DEPTH=3
+INCREMENTAL_SCAN_CLOSURE_SIZE=3
+INCREMENTAL_SCAN_MUST_INCLUDE=
+INCREMENTAL_SCAN_SAME_NAME_LIMIT=10
+INCREMENTAL_SCAN_THRESHOLD=101
+INCREMENTAL_SCAN_THRESHOLD_ACTION=FULL
+IS_FLOW_SEARCH_PARALLEL=false
+IS_JAVA_SCRIPT_ENABLED=true
+KEEP_ALIVE_ATTEMPTS=3
+KEEP_PREPROCESSED_FILE_VERSION=false
+KPI_MAX_FOR_ONE_RESULT=1
+KPI_MAX_PRINT_RESULTS=1
+KPI_PARTIAL_STAGES_ONLY_TEST_DOM=false
+KPI_TEST_DOM_STAGES=
+LANGUAGE_THRESHOLD=2.1
+LAZY_FLOW_CALL_STACK_PARAM=1
+LAZY_FLOW_DISPLAY_ALL_NODES=false
+LAZY_FLOW_FLOW_SO_FAR_PARAM=1
+LAZY_FLOW_HOT_NODE_VISITS=-1
+LAZY_FLOW_MAX_CALL_STACK_DEPTH=8
+LAZY_FLOW_MAX_DEPTH_COUNT=10000000
+LAZY_FLOW_MAX_MEMBER_STACK_DEPTH=8
+LAZY_FLOW_MAX_START_POINTS_PER_GROUP=10
+LAZY_FLOW_MAX_VISITED_NODES_IN_ONE_REFERENCE_SEARCH=2048
+LAZY_FLOW_MEMBER_STACK_PARAM=1
+LAZY_FLOW_MIN_VISIT_COUNT=30
+LAZY_FLOW_MONITOR_INTLRVAL=00:01:00
+LAZY_FLOW_PRINT_FLOW_BY_NODE_TYPE_STATISTICS=false
+LAZY_FLOW_SCOPE_SEARCH_MAX_DEPTH=16
+LAZY_FLOW_STATISTICS=false
+LAZY_FLOW_TASK_MANAGER_TYPE=Tpl
+LAZY_FLOW_TRACE_CUSTOM_FLOWS=false
+LAZY_FLOW_USE_MONITOR=true
+LAZY_FLOW_VISITED_NODES_CACHE_CONSISTENCY_LEVEL=High
+LAZY_STATISTICS_INCLUDE_CUT_OFF_FLOW=false
+LOAD_NODE_TO_GRAPH=true
+LOAD_NODE2GRAPH_ADDITIONAL_MEMBERS=true
+LOG_TOKEN_CONTENT=false
+MANUAL_CALL_GC_COLLECT=false
+MATCH_LANGUAGES=2, 65536, 32768; 1, 32
+MATCH_MEMBERS=false
+MAX_ACCEPTABLE_JUMP_DURATION=00:02:00
+MAX_ALLOWED_RESULTS_FILE_SIZE_IN_MB=100
+MAX_BAD_LINES=50
+MAX_DEPTH_TO_ENTER_METHODS=2
+MAX_DOM_METHODS_TO_PROCESS=99999999999
+MAX_FILE_PATH_LENGTH=250
+MAX_FOLDER_PATH_LENGTH=4096
+MAX_GST_RESOLVING_DEPTH=400
+MAX_LINES_IN_A_ROW=30
+MAX_MEMBERS_PER_DEFINITION=100
+MAX_NUMBER_OF_PARALLEL_SCANS=2
+MAX_NUMBER_OF_QUERIES=4
+MAX_NUMBER_OF_RESULTS=-1
+MAX_PARSE_EXPR_DEPTH=9100
+MAX_PATH=1
+MAX_PATH_ALGORITHM=true
+MAX_PATH_LENGTH=57
+MAX_PERSISTENT_OBJECTS=150
+MAX_QUERY_TIME=60
+MAX_QUERY_TIME_PER_100K=15
+MAX_QUERY_TIME_WAIT_FACTOR=1.0
+MAX_XML_SIZE_KB=1024
+MAXFILESIZEKB=1024
+MAXIMUM_PROCESSING_TIME=2880
+MAXIMUM_VIRTUAL_MEMORY=0
+MEMBERS_DEPTH=1
+MEMORY_LIMIT=350
+MEMORY_WATCHDOG_COUNTER=5
+MEMORY_WATCHDOG_MAX_USAGE_PERCENT=95
+MEMORY_WATCHDOG_MIN_AVAIL_MB=2048
+MESSAGE_QUEUE_DELAY_BETWEEN_RETRIES=6000
+MESSAGE_QUEUE_NUMBER_OF_OPEN_RETRIES=10
+MESSAGE_QUEUE_NUMBER_OF_SEND_RETRIES=90
+MESSAGE_QUEUE_OPEN_TIMEOUT=10
+MINIMAL_DISK_SPACE=100
+MINIMUM_AVAILABLE_MEMORY=-1
+MULTI_LANGUAGE_MODE=1
+NUM_TOP_TIME_LINES=0
+NUMBER_OF_RESULTS_FOR_CONFIDENCE_LEVEL_DATA_COLLECTION=150
+PARAMETER_VALUE_CORES_NUMBER=SingleSocket,0;MultiSocket,0
+PARAMETERS_LOGGING=ALL
+PARSING_CANCELLATION_TIMEOUT=120
+PARSING_TIMEOUT=180
+PHP_IMPORT_LIBRARIES_PATH=
+PLSQL_KEEP_COMMANDS=CREATE, DROP, ALTER, SLIST, GRANT, REVOKE, TRUNCATE, EXIT, SAVEPOINT, ROLLBACK
+POST_RESOLVE_INCREMENTAL_SCAN_STEP_TIMEOUT_FACTOR=10
+POST_RESOLVE_INCREMENTAL_SCAN_STEP_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP1_TIMEOUT_FACTOR=20
+POST_RESOLVER_STEP1_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP2_TIMEOUT_FACTOR=40
+POST_RESOLVER_STEP2_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP3_0_TIMEOUT_FACTOR=250
+POST_RESOLVER_STEP3_0_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP3_1_TIMEOUT_FACTOR=20
+POST_RESOLVER_STEP3_1_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP3_2_TIMEOUT_FACTOR=20
+POST_RESOLVER_STEP3_2_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP3_3_TIMEOUT_FACTOR=120
+POST_RESOLVER_STEP3_3_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP3_4_TIMEOUT_FACTOR=20
+POST_RESOLVER_STEP3_4_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP3_5_TIMEOUT_FACTOR=20
+POST_RESOLVER_STEP3_5_TIMEOUT_SECONDS=-1
+POST_RESOLVER_STEP4_TIMEOUT_FACTOR=40
+POST_RESOLVER_STEP4_TIMEOUT_SECONDS=-1
+PP_RESOLVER_ALL_FIX_CHAIN_COSTRUCTOR_INVOCATION_TIMEOUT_SECONDS=1800
+PP_RESOLVER_ALL_FIX_INHERITED_MEMBER_TIMEOUT_SECONDS=1800
+PP_RESOLVER_ALL_FIX_MEMBER_ORDER_TIMEOUT_SECONDS=1800
+PP_RESOLVER_ALL_SYNC_THIS_PARAMETER_MEMBERS_OF_METHOD_CALLS_TIMEOUT_SECONDS=1800
+PP_RESOLVER_ASPVB_FIX_ARRAY_ASP_VBS_VB6_TIMEOUT_SECONDS=10800
+PP_RESOLVER_ASPVB_FIX_ASP_REQUEST_TYPE_NAME_TIMEOUT_SECONDS=10800
+PP_RESOLVER_ASPVB_FIX_INCLUDE_WRAPPING_METHOD_ASP_TIMEOUT_SECONDS=10800
+PP_RESOLVER_ASPVB_FIX_METHOD_CALL_FROM_IDENTIFIER_ASP_VBS_VB6_TIMEOUT_SECONDS=10800
+PP_RESOLVER_FINAL_BUILD_DEFINITION_2_NODES_TIMEOUT_SECONDS=10800
+PP_RESOLVER_FRAMEWORK_TIMEOUT_SECONDS=10800
+PP_RESOLVER_GOTO_STMTS_TIMEOUT_SECONDS=1800
+PP_RESOLVER_PLSQL_FIX_ARRAY_TIMEOUT_SECONDS=10800
+PP_RESOLVER_PLSQL_FIX_METHOD_CALL_FROM_IDENTIFIER_TIMEOUT_SECONDS=10800
+PP_RESOLVER_PLSQL_FIX_REF_TIMEOUT_SECONDS=10800
+PRINT_BAD_FILES=false
+PRINT_DEBUG=false
+PRINT_DOM_DEFINITIONS=false
+PRINT_DOM_DISTRIBUTION=true
+PRINT_DOM_DISTRIBUTION_BY_LANGUAGE=0
+PRINT_LOG=true
+PRINT_QUERIES_FILE=false
+PRINT_RESOLVER_DATA_BY_DOM_TYPE=false
+PRINT_TEST_DOM_CONSISTENCY=false
+PROCESS_AFFINITY_MANAGER_SETTINGS=SingleSocket,NoLimitation;MultiSocket,NoLimitation
+PROCESS_ASCX=true
+PROCESS_ASPX=true
+PROCESS_UNCOMPILED_FILES=false
+PROFILE_QUERIES=1
+PROFILE_QUERIES_DISPLAY=1
+PUBLISH_SCAN_METRICS=True
+QUERY_MRW_COUNTER=30
+QUERY_MRW_MAX_USAGE_PERCENT=99
+QUERY_MRW_MIN_AVAIL_MB=100
+QUERY_MRW_MIN_USAGE_PERCENT=95
+QUERY_PARAMETERS=
+QUERY_PATH=Queries
+QUERY_SECURITY_CONTINUE_WITH_NOT_RUNNING_QUERY=true
+QUERY_SECURITY_PRINT_ALLOWLIST=false
+QUERY_SECURITY_TYPE=APPLICATION_SECURITY
+QUICK_QUERIES_MODE=OFF
+REDIS_CONNECTION_STRING=localhost
+REDUCE_DUP_BY_LANGUAGE=
+REFLECTOR_PATH=
+REGEX_MATCH_TIMEOUT_DEFAULT=60
+REGEX_MATCH_TIMEOUT_INCREMENTAL_SCAN=300
+REPORT_INFO_LIMIT=10
+REPORT_WARNING_LIMIT=20
+REPORT_WARNING_TRIGGER_LIMIT=300
+RESOLVE_EXPRESSIONS_TIMEOUT_FACTOR=40
+RESOLVE_EXPRESSIONS_TIMEOUT_SECONDS=42200
+RESOLVE_IMPORTS_TIMEOUT_FACTOR=10
+RESOLVE_IMPORTS_TIMEOUT_SECONDS=-1
+RESOLVE_NESTED_ROUTERS_MAX_DEPTH=5
+RESOLVE_NESTEDROUTERS_TIMEOUT_FACTOR=40
+RESOLVE_ROUTECALLS_TIMEOUT_FACTOR=40
+RESOLVE_ROUTERVIEWCALLS_TIMEOUT_FACTOR=40
+RESOLVE_TYPE_MAX_RECURSION_DEPTH=200
+RESOLVE_VIEWCALLS_TIMEOUT_FACTOR=40
+RESOLVE_VIEWCALLS_TIMEOUT_SECONDS=-1
+RESOLVER_OPERATOR_OVERLOADING_TIMEOUT_FACTOR=150
+RESOLVER_OPERATOR_OVERLOADING_TIMEOUT_SECONDS=-1
+RESOLVER_STEP1_TIMEOUT_FACTOR=10
+RESOLVER_STEP1_TIMEOUT_SECONDS=-1
+RESOLVER_STEP2_TIMEOUT_FACTOR=10
+RESOLVER_STEP2_TIMEOUT_SECONDS=-1
+RESOLVER_STEP3_TIMEOUT_FACTOR=10
+RESOLVER_STEP3_TIMEOUT_SECONDS=-1
+RESOLVER_STEP4_TIMEOUT_FACTOR=10
+RESOLVER_STEP4_TIMEOUT_SECONDS=-1
+RESOLVER_STEP5_TIMEOUT_FACTOR=150
+RESOLVER_STEP5_TIMEOUT_SECONDS=-1
+RESOLVER_TIMEOUT_MINIMUM_SECONDS=30
+RUN_ORIGINAL_QUERY_BORDER=7
+RUN_ORIGINAL_QUERY_SEQUENCE=false
+SCAN_PROJECT_ACCORDING_TO_QUERY_LANGUAGE=false
+SHOW_COVERAGE_OF_QUERIES=false
+SHOW_EXCEPTIONS_IN_DEBUG_MODE=true
+SHOW_LOAD_DOM=false
+SHOW_PER_LANGUAGE_PARSE_STATISTICS=true
+SHOW_RESULTS_HASHES=false
+SHOW_SCAN_COVERAGE=true
+SHOW_SCAN_QUALITY=false
+SIMILARITY_ID_VERSION=0
+SKIP_LOOKUPINIMPORTS_IF_DEF_EXIST=true
+SMALL_PROJECT_BORDER=3000000
+SPLIT_MESSAGE_WITH_MULTIPLE_LINES_TO_MULTIPLE_MESSAGES=false
+START_PATH_FROM_MEMBERS=false
+STATUS_UPDATE_INTERVAL_SEC=30
+SUPPORTED_LANGUAGES=1,32;128,256;4,2048
+SUPPORTED_MATCH_VARIABLE_FUNCTION_LANGUAGES=2
+TEST_DOM_CONSISTENCY=false
+TEST_DOM_CONSISTENCY_ALL_SYMBOLS_MATCH=false
+TEST_DOM_CONSISTENCY_CHECK_ID_BY_FIRST_NAME=false
+TEST_DOM_CONSISTENCY_GLOBAL_SCOPE=false
+TIME_LIMIT_WAITING_FOR_CONFIDENCE_LEVEL_DATA_COLLECTION=180000
+TIMEOUT_GOOD_PROGRESS_PERCENT=70
+TIMEOUT_OVER_TIME_PERCENT=15
+UNIFIED_LANGUAGES_ACTIVE=false
+USE_ASP_INCLUDE_BY_REFERENCE=true
+USE_CONSOLE_INPUTS=false
+USE_ENV_INPUTS=false
+USE_NEW_PHP=false
+USE_NEW_PLSQL=false
+USE_NEW_SWIFT=true
+USE_ORDERED_REDUCEFLOW=true
+USE_PEBBLE=false
+USE_SCALA_DOUBLEPASS_TYPEINFERENCE=true
+WATCHDOG_ABORT_SCAN_ON_LOW_MEMORY=false
+WATCHDOG_ABORT_SCAN_ON_LOW_MEMORY_COUNTER=5
+WATCHDOG_ABORT_SCAN_ON_LOW_MEMORY_MAX_USAGE_PERCENT=96
+WATCHDOG_ABORT_SCAN_ON_LOW_MEMORY_MIN_AVAIL_MB=1024
+WATCHDOG_GC_AGGRESSIVE_STEPS=256
+WATCHDOG_GC_INTERVAL_MIN=10
+WATCHDOG_GC_STEPS=448
+WATCHDOG_INTERVAL_SEC=600
+WATCHDOG_MEMORY_TEST_ENABLED=false
+WATCHDOG_MEMORY_TEST_PACE_MB_PER_SEC=100
+WATCHDOG_STAGE_STOP_BY_PROCENT=
+WRITE_CONFIDENCE_LEVEL_TO_LOG=false
+  
+23/05/2023 17:27:00,604 [1] INFO  Available memory: 1665 Used memory: 37 Elapsed Time: 00:00:09.4107721 [Unspecified] - Current Engine Configuration from DefaultConfig.xml: 
+_____________________________
+  
+23/05/2023 17:27:01,078 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:09.8850547 [Unspecified] - Key [CX_ENGINE_MESSAGE_QUEUE_TYPE] is missing  
+23/05/2023 17:27:01,078 [1] WARN  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:09.8851937 [Unspecified] - The ConnectionType environment variable is empty. Using ActiveMq  
+23/05/2023 17:27:01,079 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:09.8858879 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,079 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:09.8861771 [Unspecified] - Key [CX_EA_ENABLED_QUEUES] = 'ResultQueue;IncrementalFilesQueue' (process env)  
+23/05/2023 17:27:01,080 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:09.8865964 [Unspecified] - Key [EA_ASYNC_MESSAGES_TIMEOUT] is missing  
+23/05/2023 17:27:01,080 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:09.8870720 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,081 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:09.8876715 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,081 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:09.8877746 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,081 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:09.8878062 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,581 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:10.3882948 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,586 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:10.3926519 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,586 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:10.3927844 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,586 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:10.3928175 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,586 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:10.3929525 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,592 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:10.3991664 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,593 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:10.3994558 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,593 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:10.3998578 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,593 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:10.3998969 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,593 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:10.3999219 [Unspecified] - Key [CX_EA_PUBLISHING_METHOD] = 'MessageQueue' (process env)  
+23/05/2023 17:27:01,697 [1] INFO  Available memory: 1665 Used memory: 44 Elapsed Time: 00:00:10.5039234 [Unspecified] - Scan Details: ProjectId='797',ProjectName='JSFile'  
+23/05/2023 17:27:02,283 [1] INFO  Available memory: 1662 Used memory: 50 Elapsed Time: 00:00:11.0895562 [Unspecified] - Number of CPUs in this computer : 0  
+23/05/2023 17:27:02,415 [1] INFO  Available memory: 1662 Used memory: 50 Elapsed Time: 00:00:11.2217725 [Unspecified] - Engine is not in standalone mode  
+23/05/2023 17:27:02,658 [1] INFO  Available memory: 1662 Used memory: 50 Elapsed Time: 00:00:11.4647629 [Unspecified] - Watchdog: starting
+Started with period 600 sec
+GC Server mode enabled: False
+GC Large object heap compacting mode: Default
+GC Latency mode: Interactive
+GC Invocation enabled: False
+GC Steps: None
+GC Aggressive Steps: None
+Minimal disk space: 100 MB
+Watching for configuration files changes in [C:\Program Files\Checkmarx\Checkmarx Engine Service\Engine Server\]
+  
+23/05/2023 17:27:02,685 [1] WARN  Available memory: 1662 Used memory: 50 Elapsed Time: 00:00:11.4922253 [Unspecified] - The group LUA_EXTENSIONS doesn't exist in _extensionsByGroups structure  
+23/05/2023 17:27:03,081 [1] INFO  Available memory: 1662 Used memory: 50 Elapsed Time: 00:00:11.8878867 [Unspecified] - Key [CX_ENGINE_SOURCES_CACHE_PATH] = 'C:\CxSrc' (process env)  
+23/05/2023 17:27:03,086 [1] INFO  Available memory: 1662 Used memory: 50 Elapsed Time: 00:00:11.8932582 [Unspecified] - Start LoadAndManipulateWithQueries  
+23/05/2023 17:27:03,801 [1] INFO  Available memory: 1659 Used memory: 57 Elapsed Time: 00:00:12.6083493 [Unspecified] - Could Not find Program Language Key: Lua
+  
+23/05/2023 17:27:10,875 [1] INFO  Available memory: 1609 Used memory: 104 Elapsed Time: 00:00:19.6823617 [Unspecified] - Start Calculate white list  
+23/05/2023 17:27:10,911 [1] INFO  Available memory: 1609 Used memory: 104 Elapsed Time: 00:00:19.7175289 [Unspecified] - End   Calculate white list  
+23/05/2023 17:27:26,644 [1] INFO  Available memory: 1613 Used memory: 258 Elapsed Time: 00:00:35.4507468 [Unspecified] - Start CheckSource  
+23/05/2023 17:27:36,772 [1] INFO  Available memory: 1557 Used memory: 318 Elapsed Time: 00:00:45.5787217 [Unspecified] - Sequrity check took 00:00:04.0743864  
+23/05/2023 17:27:36,772 [1] INFO  Available memory: 1557 Used memory: 318 Elapsed Time: 00:00:45.5788240 [Unspecified] - End   CheckSource  
+23/05/2023 17:27:36,772 [1] INFO  Available memory: 1557 Used memory: 318 Elapsed Time: 00:00:45.5789141 [Unspecified] - End  LoadAndManipulateWithQueries  
+23/05/2023 17:27:36,777 [1] INFO  Available memory: 1557 Used memory: 318 Elapsed Time: 00:00:45.5836199 [Unspecified] - Starting regular scan
+C:\EngineServiceScans\Scans\e531ecf9-675b-454f-8ba5-e24a2519766b\IncrementalScanFiles\IncrementalFiles.cx exists:False
+C:\EngineServiceScans\Scans\e531ecf9-675b-454f-8ba5-e24a2519766b\IncrementalScanFiles\MethodsMapping.cx exists:False  
+23/05/2023 17:27:38,039 [1] INFO  Available memory: 1556 Used memory: 312 Elapsed Time: 00:00:46.8458098 [Resolving] - Set default timeout interval for evaluating regular expression patterns ('REGEX_DEFAULT_MATCH_TIMEOUT' property) to 60 seconds.  
+23/05/2023 17:27:38,053 [1] INFO  Available memory: 1556 Used memory: 312 Elapsed Time: 00:00:46.8604213 [Resolving] - Solution relative path is: 'C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b'  
+23/05/2023 17:27:38,054 [1] INFO  Available memory: 1556 Used memory: 312 Elapsed Time: 00:00:46.8605183 [Resolving] - Solution dummy file is: 'C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\CxDummy.cx'  
+23/05/2023 17:27:38,054 [1] INFO  Available memory: 1556 Used memory: 312 Elapsed Time: 00:00:46.8609038 [Resolving] - Begin analyzing sources of the project 'JSFile'  
+23/05/2023 17:27:38,057 [1] INFO  Available memory: 1556 Used memory: 312 Elapsed Time: 00:00:46.8639356 [Resolving] - Begin analyzing DOM of the project 'JSFile'  
+23/05/2023 17:27:38,062 [1] INFO  Available memory: 1556 Used memory: 312 Elapsed Time: 00:00:46.8686715 [Resolving] - Number of exclude files =0  
+23/05/2023 17:27:38,064 [1] INFO  Available memory: 1556 Used memory: 312 Elapsed Time: 00:00:46.8704389 [Resolving] - Could Not find Program Language Key: Lua
+  
+23/05/2023 17:27:47,868 [1] INFO  Available memory: 1540 Used memory: 333 Elapsed Time: 00:00:56.6753431 [Resolving] - This Project will scan the following languages  JavaScript, Common  
+23/05/2023 17:27:47,876 [1] WARN  Available memory: 1540 Used memory: 333 Elapsed Time: 00:00:56.6832085 [Resolving] - number of languages in ExtensionsLists dictionary 81 different than extensionNameToTypeMapping 87 
+ Please update your software!!!!!!!!!!!!  
+23/05/2023 17:27:47,876 [1] INFO  Available memory: 1540 Used memory: 333 Elapsed Time: 00:00:56.6833644 [Resolving] - The following source files were identified: JavaScript=1
+MULTI_LANGUAGE_MODE is set to scan one primary language and all scripting languages
+Languages that will be scanned: JavaScript=1
+  
+23/05/2023 17:27:47,879 [1] INFO  Available memory: 1540 Used memory: 333 Elapsed Time: 00:00:56.6854740 [Resolving] - Scanning or Auditing Project type code is: 1073741832 that has 159 lines of code  
+23/05/2023 17:27:47,883 [1] INFO  Available memory: 1540 Used memory: 333 Elapsed Time: 00:00:56.6895289 [Resolving] - Could Not find Program Language Key: Lua
+  
+23/05/2023 17:27:47,883 [1] INFO  Available memory: 1540 Used memory: 333 Elapsed Time: 00:00:56.6895641 [Resolving] - Actually scanned lines of code: 129  
+23/05/2023 17:27:47,890 [1] INFO  Available memory: 1540 Used memory: 333 Elapsed Time: 00:00:56.6972835 [Resolving] - Engine Phase (Start): Parsing Javascript  
+23/05/2023 17:27:47,982 [1] INFO  Available memory: 1540 Used memory: 333 Elapsed Time: 00:00:56.7890621 [FrameworkFactory] - Begin initializing Frameworks for JavaScript  
+23/05/2023 17:27:50,671 [1] INFO  Available memory: 1542 Used memory: 337 Elapsed Time: 00:00:59.4774749 [FrameworkFactory] - Frameworks found for JavaScript: None  
+23/05/2023 17:27:50,671 [1] INFO  Available memory: 1542 Used memory: 337 Elapsed Time: 00:00:59.4775621 [FrameworkFactory] - Finish initializing Frameworks for JavaScript  
+23/05/2023 17:27:50,671 [1] INFO  Available memory: 1542 Used memory: 337 Elapsed Time: 00:00:59.4779918 [Parsing] - Entering preprocessing sub-stage of JavaScript  
+23/05/2023 17:27:50,674 [1] INFO  Available memory: 1542 Used memory: 337 Elapsed Time: 00:00:59.4812046 [Parsing] - JavascriptProject.GetGraph(): Source folder: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b  
+23/05/2023 17:27:50,705 [1] INFO  Available memory: 1542 Used memory: 337 Elapsed Time: 00:00:59.5115178 [Parsing] - Exiting preprocessing sub-stage of JavaScript  
+23/05/2023 17:27:50,705 [1] INFO  Available memory: 1542 Used memory: 337 Elapsed Time: 00:00:59.5115836 [Parsing] - Entering parsing sub-stage of JavaScript  
+23/05/2023 17:27:50,711 [1] INFO  Available memory: 1542 Used memory: 337 Elapsed Time: 00:00:59.5182361 [Parsing] - Exiting parsing sub-stage of JavaScript  
+23/05/2023 17:27:50,711 [1] INFO  Available memory: 1542 Used memory: 337 Elapsed Time: 00:00:59.5183105 [Parsing] - Entering type inference sub-stage of JavaScript  
+23/05/2023 17:27:50,714 [1] INFO  Available memory: 1542 Used memory: 337 Elapsed Time: 00:00:59.5207401 [Parsing] - Enter collecting identifiers for 3 files  
+23/05/2023 17:27:50,800 [1] INFO  Available memory: 1542 Used memory: 337 Elapsed Time: 00:00:59.6065120 [Parsing] - Exit collecting identifiers  
+23/05/2023 17:27:51,478 [1] WARN  Available memory: 1542 Used memory: 337 Elapsed Time: 00:01:00.2853655 [Parsing] - C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js:130:80:Exception of type 'Antlr4.Runtime.NoViableAltException' was thrown.  
+23/05/2023 17:27:51,598 [1] WARN  Available memory: 1542 Used memory: 337 Elapsed Time: 00:01:00.4054204 [Parsing] - C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js:76:37:Exception of type 'Antlr4.Runtime.NoViableAltException' was thrown.  
+23/05/2023 17:27:51,927 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.7340952 [Parsing] - Exit collecting identifiers  
+23/05/2023 17:27:51,927 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.7342364 [Parsing] - Exiting type inference sub-stage of JavaScript  
+23/05/2023 17:27:51,928 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.7351373 [Parsing] - Enter collecting implicit globals  
+23/05/2023 17:27:51,951 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.7581280 [Parsing] - Exit collecting implicit globals  
+23/05/2023 17:27:51,951 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.7582127 [Parsing] - Entering AST sub-stage of JavaScript  
+23/05/2023 17:27:51,956 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.7625352 [Parsing] - Started processing file: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js  
+23/05/2023 17:27:52,086 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.8926741 [Parsing] - Finished processing file: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js  
+23/05/2023 17:27:52,086 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.8928733 [Parsing] - Started processing file: C:\Program Files\Checkmarx\Checkmarx Engine Service\Engine Server\Plugins\JavaScript\http.js  
+23/05/2023 17:27:52,092 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.8988204 [Parsing] - Finished processing file: C:\Program Files\Checkmarx\Checkmarx Engine Service\Engine Server\Plugins\JavaScript\http.js  
+23/05/2023 17:27:52,092 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.8989263 [Parsing] - Started processing file: C:\Program Files\Checkmarx\Checkmarx Engine Service\Engine Server\Plugins\JavaScript\react.js  
+23/05/2023 17:27:52,094 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.9008544 [Parsing] - Finished processing file: C:\Program Files\Checkmarx\Checkmarx Engine Service\Engine Server\Plugins\JavaScript\react.js  
+23/05/2023 17:27:52,094 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.9009711 [Parsing] - Exiting AST sub-stage of JavaScript  
+23/05/2023 17:27:52,094 [1] INFO  Available memory: 1863 Used memory: 152 Elapsed Time: 00:01:00.9011037 [Parsing] - Entering conversions sub-stage of JavaScript  
+23/05/2023 17:37:03,448 [.NET ThreadPool Worker] INFO  Available memory: 1698 Used memory: 157 Elapsed Time: 00:10:12.2551758 [Unspecified] - Watchdog: report
+Memory delta in 601.0031279 sec: -107 MB. Memory consumption per second (MB/Sec): 0
+CPU elapsed: 00:08:22.7812500
+GC: Total memory: 40,987,928 Generations: 2
+Available free space on disk: 88969 MB.
+Engine status: Parsing
+ Stage: 0       Name: Parsing of JavaScript        Msg: Stage # 1 of 29
+ Msg: Processing # 2 of 2                          Details: http.js Status: Scanning
+Internal Stage: Applying Transform Rules 76% completed (57/75) : ExpressionSequencesInExpressionStatementConversion
+File Path: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js;9:31
+Process information:
+ Base Priority: 8                                  Priority Class: Normal                            Processor Affinity: 1
+ Handle Count: 537                                 Threads Count: 21
+ Total Processor Time: 00:08:24.1250000            User Processor Time: 00:08:21.8750000             Privileged Processor Time: 00:00:02.2500000
+ Paged Memory Size: 120 MB                         Paged System Memory Size: 0 MB
+ Peak Paged Memory Size: 302 MB                    Peak Virtual Memory Size: 2,098,302 MB            Peak Working Set: 338 MB
+ Private Memory Size: 120 MB                       Virtual Memory Size: 2,098,081 MB                 Working Set: 157 MB
+  
+23/05/2023 17:47:03,226 [.NET ThreadPool Worker] INFO  Available memory: 1691 Used memory: 173 Elapsed Time: 00:20:12.0327929 [Unspecified] - Watchdog: report
+Memory delta in 599.8037403 sec: -16 MB. Memory consumption per second (MB/Sec): 0
+CPU elapsed: 00:08:54.8750000
+GC: Total memory: 56,274,632 Generations: 2
+Available free space on disk: 88969 MB.
+Engine status: Parsing
+ Stage: 0       Name: Parsing of JavaScript        Msg: Stage # 1 of 29
+ Msg: Processing # 2 of 2                          Details: http.js Status: Scanning
+Internal Stage: Applying Transform Rules 7% completed (5/75) : MoveLabeledStatementBlockStmtOut
+File Path: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js;19:13
+Process information:
+ Base Priority: 8                                  Priority Class: Normal                            Processor Affinity: 1
+ Handle Count: 568                                 Threads Count: 18
+ Total Processor Time: 00:17:18.9843750            User Processor Time: 00:17:15.2031250             Privileged Processor Time: 00:00:03.7812500
+ Paged Memory Size: 135 MB                         Paged System Memory Size: 0 MB
+ Peak Paged Memory Size: 302 MB                    Peak Virtual Memory Size: 2,098,302 MB            Peak Working Set: 338 MB
+ Private Memory Size: 135 MB                       Virtual Memory Size: 2,098,069 MB                 Working Set: 173 MB
+  
+23/05/2023 17:57:03,309 [.NET ThreadPool Worker] INFO  Available memory: 1696 Used memory: 189 Elapsed Time: 00:30:12.1157144 [Unspecified] - Watchdog: report
+Memory delta in 600.0817573 sec: -16 MB. Memory consumption per second (MB/Sec): 0
+CPU elapsed: 00:08:59.8750000
+GC: Total memory: 72,401,056 Generations: 2
+Available free space on disk: 88969 MB.
+Engine status: Parsing
+ Stage: 0       Name: Parsing of JavaScript        Msg: Stage # 1 of 29
+ Msg: Processing # 2 of 2                          Details: http.js Status: Scanning
+Internal Stage: Applying Transform Rules 72% completed (54/75) : ExpressionSequencesInForLoopInitializerConversions
+File Path: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js;73:27
+Process information:
+ Base Priority: 8                                  Priority Class: Normal                            Processor Affinity: 1
+ Handle Count: 609                                 Threads Count: 18
+ Total Processor Time: 00:26:18.8593750            User Processor Time: 00:26:13.7500000             Privileged Processor Time: 00:00:05.1093750
+ Paged Memory Size: 151 MB                         Paged System Memory Size: 0 MB
+ Peak Paged Memory Size: 302 MB                    Peak Virtual Memory Size: 2,098,302 MB            Peak Working Set: 338 MB
+ Private Memory Size: 151 MB                       Virtual Memory Size: 2,098,070 MB                 Working Set: 189 MB
+  
+23/05/2023 18:07:03,253 [.NET ThreadPool Worker] INFO  Available memory: 1787 Used memory: 205 Elapsed Time: 00:40:12.0598172 [Unspecified] - Watchdog: report
+Memory delta in 599.942316 sec: -16 MB. Memory consumption per second (MB/Sec): 0
+CPU elapsed: 00:08:59.5156250
+GC: Total memory: 86,859,000 Generations: 2
+Available free space on disk: 88968 MB.
+Engine status: Parsing
+ Stage: 0       Name: Parsing of JavaScript        Msg: Stage # 1 of 29
+ Msg: Processing # 2 of 2                          Details: http.js Status: Scanning
+Internal Stage: Applying Transform Rules 21% completed (16/75) : ArrayDestructuringInParameterConversion
+File Path: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js;0:0
+Process information:
+ Base Priority: 8                                  Priority Class: Normal                            Processor Affinity: 1
+ Handle Count: 643                                 Threads Count: 17
+ Total Processor Time: 00:35:18.3750000            User Processor Time: 00:35:11.7500000             Privileged Processor Time: 00:00:06.6250000
+ Paged Memory Size: 167 MB                         Paged System Memory Size: 0 MB
+ Peak Paged Memory Size: 302 MB                    Peak Virtual Memory Size: 2,098,302 MB            Peak Working Set: 338 MB
+ Private Memory Size: 167 MB                       Virtual Memory Size: 2,098,060 MB                 Working Set: 205 MB
+  
+23/05/2023 18:17:02,743 [.NET ThreadPool Worker] INFO  Available memory: 1791 Used memory: 220 Elapsed Time: 00:50:11.5500321 [Unspecified] - Watchdog: report
+Memory delta in 599.4923186 sec: -15 MB. Memory consumption per second (MB/Sec): 0
+CPU elapsed: 00:08:59.2656250
+GC: Total memory: 101,461,904 Generations: 2
+Available free space on disk: 88967 MB.
+Engine status: Parsing
+ Stage: 0       Name: Parsing of JavaScript        Msg: Stage # 1 of 29
+ Msg: Processing # 2 of 2                          Details: http.js Status: Scanning
+Internal Stage: Applying Transform Rules 8% completed (6/75) : VmDynamicExecutions
+File Path: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js;0:0
+Process information:
+ Base Priority: 8                                  Priority Class: Normal                            Processor Affinity: 1
+ Handle Count: 680                                 Threads Count: 16
+ Total Processor Time: 00:44:17.6406250            User Processor Time: 00:44:09.7343750             Privileged Processor Time: 00:00:07.9062500
+ Paged Memory Size: 181 MB                         Paged System Memory Size: 0 MB
+ Peak Paged Memory Size: 302 MB                    Peak Virtual Memory Size: 2,098,302 MB            Peak Working Set: 338 MB
+ Private Memory Size: 181 MB                       Virtual Memory Size: 2,098,051 MB                 Working Set: 220 MB
+  
+23/05/2023 18:27:03,410 [.NET ThreadPool Worker] INFO  Available memory: 1777 Used memory: 239 Elapsed Time: 01:00:12.2174213 [Unspecified] - Watchdog: report
+Memory delta in 600.6667212 sec: -19 MB. Memory consumption per second (MB/Sec): 0
+CPU elapsed: 00:08:59.4531250
+GC: Total memory: 120,366,608 Generations: 2
+Available free space on disk: 88967 MB.
+Engine status: Parsing
+ Stage: 0       Name: Parsing of JavaScript        Msg: Stage # 1 of 29
+ Msg: Processing # 2 of 2                          Details: http.js Status: Scanning
+Internal Stage: Applying Transform Rules 68% completed (51/75) : ApplyMethodConversion
+File Path: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js;0:0
+Process information:
+ Base Priority: 8                                  Priority Class: Normal                            Processor Affinity: 1
+ Handle Count: 725                                 Threads Count: 17
+ Total Processor Time: 00:53:17.0937500            User Processor Time: 00:53:08                     Privileged Processor Time: 00:00:09.0937500
+ Paged Memory Size: 201 MB                         Paged System Memory Size: 0 MB
+ Peak Paged Memory Size: 302 MB                    Peak Virtual Memory Size: 2,098,302 MB            Peak Working Set: 338 MB
+ Private Memory Size: 201 MB                       Virtual Memory Size: 2,098,061 MB                 Working Set: 239 MB
+  
+23/05/2023 18:37:03,304 [.NET ThreadPool Worker] INFO  Available memory: 1747 Used memory: 251 Elapsed Time: 01:10:12.1108329 [Unspecified] - Watchdog: report
+Memory delta in 599.8947841 sec: -12 MB. Memory consumption per second (MB/Sec): 0
+CPU elapsed: 00:08:23.1250000
+GC: Total memory: 130,838,176 Generations: 2
+Available free space on disk: 88966 MB.
+Engine status: Parsing
+ Stage: 0       Name: Parsing of JavaScript        Msg: Stage # 1 of 29
+ Msg: Processing # 2 of 2                          Details: http.js Status: Scanning
+Internal Stage: Applying Transform Rules 33% completed (25/75) : ClassInheritanceWithoutConstructor
+File Path: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js;7:54
+Process information:
+ Base Priority: 8                                  Priority Class: Normal                            Processor Affinity: 1
+ Handle Count: 769                                 Threads Count: 17
+ Total Processor Time: 01:01:40.2187500            User Processor Time: 01:01:29.3125000             Privileged Processor Time: 00:00:10.9062500
+ Paged Memory Size: 212 MB                         Paged System Memory Size: 0 MB
+ Peak Paged Memory Size: 302 MB                    Peak Virtual Memory Size: 2,098,302 MB            Peak Working Set: 338 MB
+ Private Memory Size: 212 MB                       Virtual Memory Size: 2,098,061 MB                 Working Set: 251 MB
+  
+23/05/2023 18:47:02,802 [.NET ThreadPool Worker] INFO  Available memory: 1737 Used memory: 265 Elapsed Time: 01:20:11.6089264 [Unspecified] - Watchdog: report
+Memory delta in 599.4974175 sec: -14 MB. Memory consumption per second (MB/Sec): 0
+CPU elapsed: 00:08:59.3281250
+GC: Total memory: 146,642,864 Generations: 2
+Available free space on disk: 88966 MB.
+Engine status: Parsing
+ Stage: 0       Name: Parsing of JavaScript        Msg: Stage # 1 of 29
+ Msg: Processing # 2 of 2                          Details: http.js Status: Scanning
+Internal Stage: Applying Transform Rules 17% completed (13/75) : RestParameterConversion
+File Path: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js;5:29
+Process information:
+ Base Priority: 8                                  Priority Class: Normal                            Processor Affinity: 1
+ Handle Count: 802                                 Threads Count: 17
+ Total Processor Time: 01:10:39.5625000            User Processor Time: 01:10:27.3125000             Privileged Processor Time: 00:00:12.2500000
+ Paged Memory Size: 228 MB                         Paged System Memory Size: 0 MB
+ Peak Paged Memory Size: 302 MB                    Peak Virtual Memory Size: 2,098,302 MB            Peak Working Set: 338 MB
+ Private Memory Size: 228 MB                       Virtual Memory Size: 2,098,064 MB                 Working Set: 265 MB
+  
+23/05/2023 18:57:02,816 [.NET ThreadPool Worker] INFO  Available memory: 1718 Used memory: 280 Elapsed Time: 01:30:11.6231315 [Unspecified] - Watchdog: report
+Memory delta in 600.0131507 sec: -15 MB. Memory consumption per second (MB/Sec): 0
+CPU elapsed: 00:08:59.7656250
+GC: Total memory: 160,048,624 Generations: 2
+Available free space on disk: 88966 MB.
+Engine status: Parsing
+ Stage: 0       Name: Parsing of JavaScript        Msg: Stage # 1 of 29
+ Msg: Processing # 2 of 2                          Details: http.js Status: Scanning
+Internal Stage: Applying Transform Rules 41% completed (31/75) : ExportListConversion
+File Path: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js;7:36
+Process information:
+ Base Priority: 8                                  Priority Class: Normal                            Processor Affinity: 1
+ Handle Count: 839                                 Threads Count: 16
+ Total Processor Time: 01:19:39.3125000            User Processor Time: 01:19:25.6250000             Privileged Processor Time: 00:00:13.6875000
+ Paged Memory Size: 242 MB                         Paged System Memory Size: 0 MB
+ Peak Paged Memory Size: 302 MB                    Peak Virtual Memory Size: 2,098,302 MB            Peak Working Set: 338 MB
+ Private Memory Size: 242 MB                       Virtual Memory Size: 2,098,054 MB                 Working Set: 280 MB
+  
+23/05/2023 19:07:03,292 [.NET ThreadPool Worker] INFO  Available memory: 1703 Used memory: 293 Elapsed Time: 01:40:12.0988776 [Unspecified] - Watchdog: report
+Memory delta in 600.4749168 sec: -13 MB. Memory consumption per second (MB/Sec): 0
+CPU elapsed: 00:08:52.5312500
+GC: Total memory: 172,197,168 Generations: 2
+Available free space on disk: 88965 MB.
+Engine status: Parsing
+ Stage: 0       Name: Parsing of JavaScript        Msg: Stage # 1 of 29
+ Msg: Processing # 2 of 2                          Details: http.js Status: Scanning
+Internal Stage: Applying Transform Rules 80% completed (60/75) : JQueryExtendWithAssignmentConversion
+File Path: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js;0:0
+Process information:
+ Base Priority: 8                                  Priority Class: Normal                            Processor Affinity: 1
+ Handle Count: 884                                 Threads Count: 17
+ Total Processor Time: 01:28:31.8437500            User Processor Time: 01:28:16.8437500             Privileged Processor Time: 00:00:15
+ Paged Memory Size: 255 MB                         Paged System Memory Size: 0 MB
+ Peak Paged Memory Size: 302 MB                    Peak Virtual Memory Size: 2,098,302 MB            Peak Working Set: 338 MB
+ Private Memory Size: 255 MB                       Virtual Memory Size: 2,098,064 MB                 Working Set: 293 MB
+  
+23/05/2023 19:17:02,731 [.NET ThreadPool Worker] INFO  Available memory: 1693 Used memory: 306 Elapsed Time: 01:50:11.5380201 [Unspecified] - Watchdog: report
+Memory delta in 599.4416965 sec: -13 MB. Memory consumption per second (MB/Sec): 0
+CPU elapsed: 00:08:52.2812500
+GC: Total memory: 184,043,376 Generations: 2
+Available free space on disk: 88965 MB.
+Engine status: Parsing
+ Stage: 0       Name: Parsing of JavaScript        Msg: Stage # 1 of 29
+ Msg: Processing # 2 of 2                          Details: http.js Status: Scanning
+Internal Stage: Applying Transform Rules 100% completed (75/75) : FunctionHoistingConversion
+File Path: C:\CxSrc\e531ecf9-675b-454f-8ba5-e24a2519766b\build-config-comparer.js;0:0
+Process information:
+ Base Priority: 8                                  Priority Class: Normal                            Processor Affinity: 1
+ Handle Count: 923                                 Threads Count: 17
+ Total Processor Time: 01:37:24.1250000            User Processor Time: 01:37:07.7500000             Privileged Processor Time: 00:00:16.3750000
+ Paged Memory Size: 268 MB                         Paged System Memory Size: 0 MB
+ Peak Paged Memory Size: 302 MB                    Peak Virtual Memory Size: 2,098,302 MB            Peak Working Set: 338 MB
+ Private Memory Size: 268 MB                       Virtual Memory Size: 2,098,065 MB                 Working Set: 306 MB
+  
